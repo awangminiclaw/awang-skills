@@ -1,0 +1,20 @@
+[
+    {
+        "timestamp": "2026-02-17T13:35:13+08:00",
+        "topic": "京都藝妓的眼淚 (Tears of the Geisha)",
+        "style": "Unreal Engine 5",
+        "prompt": "Unreal Engine 5 render..."
+    },
+    {
+        "timestamp": "2026-02-17T13:50:00+08:00",
+        "topic": "京都藝妓的眼淚 (Tears of the Geisha) - 30s Trailer",
+        "style": "Unreal Engine 5 (Trailer Mode)",
+        "type": "Multi-Shot Storyboard (14 Shots)"
+    },
+    {
+        "timestamp": "2026-02-17T16:20:00+08:00",
+        "topic": "1920年代紐約建築工 (NYC Skyscraper Worker)",
+        "style": "Photorealistic (Lives Action)",
+        "type": "High-Tempo Trailer (14 Shots)"
+    }
+]
