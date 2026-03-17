@@ -1,0 +1,68 @@
+{
+    "5s": [
+        {
+            "name": "Impact Short",
+            "structure": [
+                "2s Action (Medium)",
+                "3s Result (Wide)"
+            ]
+        },
+        {
+            "name": "Teaser Reveal",
+            "structure": [
+                "2s Detail (ECU)",
+                "3s Full Reveal (Medium)"
+            ]
+        }
+    ],
+    "10s": [
+        {
+            "name": "Standard Kinetic",
+            "structure": [
+                "3s Establishing (Wide)",
+                "4s Action (Medium)",
+                "3s Reaction (Close-up)"
+            ]
+        },
+        {
+            "name": "Intense Focus",
+            "structure": [
+                "2s Detail (ECU)",
+                "2s Detail (ECU)",
+                "6s Action (Medium)"
+            ]
+        },
+        {
+            "name": "Atmospheric Build",
+            "structure": [
+                "4s Environment (Wide)",
+                "3s Slow Motion (Medium)",
+                "3s Subject (Close-up)"
+            ]
+        },
+        {
+            "name": "Action Blitz (High Pace)",
+            "structure": [
+                "1.5s Impact (Close-up)",
+                "1.5s Reaction (Medium)",
+                "1s Detail (ECU)",
+                "2s Chaos (Wide)",
+                "1s Impact (Close-up)",
+                "1s Detail (Macro)",
+                "2s Aftermath (Medium)"
+            ]
+        }
+    ],
+    "15s": [
+        {
+            "name": "Full Narrative Arc",
+            "structure": [
+                "3s Environment (Extreme Wide)",
+                "4s Approach (Wide)",
+                "3s Action (Medium)",
+                "3s Impact (Close-up)",
+                "2s Aftermath (Wide)"
+            ]
+        }
+    ]
+}
