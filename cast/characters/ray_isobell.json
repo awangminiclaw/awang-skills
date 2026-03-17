@@ -1,0 +1,18 @@
+{
+    "id": "ray_isobell",
+    "name": "ray_isobell",
+    "type": "2",
+    "description": "Edgy goth girl with signature neon green roots, glasses, and snake tattoos.",
+    "visual_anchors": {
+        "face_dna": "Krysten Ritter (Face Shape/Pale Skin) + Angelina Jolie (Sharp Jawline/Lips) + Billie Eilish (Eyes/Gaze/Hair Style)",
+        "hair": "center-parted long straight black hair with distinct neon green roots and eyebrows (Billie Eilish style dye)",
+        "face": "distinctive sharp angular jawline, pale skin, thick black rectangular glasses, septum piercing, bridge piercing, confident neutral expression",
+        "body": "fit physique, pale skin, large blackwork snake tattoo coiled tightly around entire left arm (forearm to shoulder), stomach tattoos",
+        "attire": "Avant-garde camouflage print crop top (tight fit), High-cut performance technical dance-briefs (Matte Black), barefoot aesthetic. Context: Contemporary Performance Art.",
+        "skin_texture": "High-fidelity skin texture, natural cinematic sheen, hyper-realistic light interaction, visible pores under macro lens"
+    },
+    "safety_compliance": {
+        "clothing_strategy": "Performance Art / Stage Costume",
+        "notes": "Use 'High-cut performance leotard-bottoms' instead of 'panties'."
+    }
+}

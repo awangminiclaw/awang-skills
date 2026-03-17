@@ -1,0 +1,17 @@
+{
+    "id": "old_store_clerk",
+    "name": "Old Store Clerk (Type 1)",
+    "type": "1",
+    "description": "Elderly Asian female clerk. Deep wrinkles, promient nasolabial folds, age spots, hooded eyelids. Silver-gray hair in a low bun. Thin, wrinkled limbs.",
+    "face_dna": "[Maggie Cheung (張曼玉) aged] + [Youn Yuh-jung (尹汝貞)] + [Michelle Yeoh (楊紫瓊) jawline]",
+    "face_id": "Deep wrinkles, prominent nasolabial folds and marionette lines, age spots/hyperpigmentation, silver-gray hair pulled back into a low small bun, hooded/drooping eyelids.",
+    "body_map": "Thin, wiry limbs with wrinkled skin, prominent collarbones and shoulder blades, a dark mole/blemish on the outer right forearm.",
+    "physics": "Normal store clerk attire. (Since Type 1, outfits change based on scene).",
+    "tags": [
+        "elderly",
+        "asian",
+        "clerk",
+        "wrinkled",
+        "silver hair"
+    ]
+}

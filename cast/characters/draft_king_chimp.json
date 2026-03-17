@@ -1,0 +1,14 @@
+{
+    "id": "king_chimp",
+    "name": "King Chimp",
+    "type": "2 (Full Set - Fixed Outfit)",
+    "description": "A hyper-realistic chimpanzee with a punk-rock royalty aesthetic.",
+    "visual_anchors": {
+        "face_dna": "Realistic Chimpanzee (Planet of the Apes style) + The Notorious B.I.G. (Crown/Swagger)",
+        "face": "Chimpanzee face, mischievous toothy grin, gold paper-texture crown, retro 3D anaglyph glasses (red/blue lenses), septum piercing, earring",
+        "body": "Anthropomorphic chimpanzee body, dark fur, standing posture",
+        "attire": "Black leather biker jacket (silver spikes on shoulders, flower embroidery), white ribbed tank top, navy blue tailored shorts, white socks, black canvas high-top sneakers",
+        "skin_texture": "High-fidelity fur texture, realistic animal skin details"
+    },
+    "notes": "Draft for user verification. Please confirm details."
+}

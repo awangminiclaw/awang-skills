@@ -1,0 +1,10 @@
+{
+    "id": "sporty_girl_2",
+    "name": "Athletic Mixed-Race Girl",
+    "type": "1",
+    "description": "Athletic and slim build. Eurasian features: Anne Hathaway's smile + Song Hye Kyo's soft oval face and almond eyes + Natalie Portman's straight nose. Light brown/reddish hair tied in a low bun with face-framing pieces. Pale skin.",
+    "face_dna": "[Anne Hathaway] (warm smile) + [Song Hye Kyo] (soft oval face, gentle almond eyes) + [Natalie Portman] (straight nose, elegant aura)",
+    "face_id": "Oval face, smooth jawline, gentle brown double eyelid almond eyes, straight nose with slightly rounded tip, medium full natural lips. Light brown/reddish hair, center part, low bun with natural wavy face-framing strands.",
+    "body_map": "Athletic and slim build, long limbs, flat firm abdomen, pale skin. No visible tattoos or scars.",
+    "physics": "Type 1 (Basic). Scene-dependent clothing."
+}

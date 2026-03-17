@@ -1,0 +1,18 @@
+{
+    "id": "sporty_girl",
+    "name": "Sporty Girl (Unnamed)",
+    "type": "1",
+    "description": "Pale athletic girl with distinctive facial moles. Expressive and versatile.",
+    "visual_anchors": {
+        "face_dna": "Nana Komatsu (Vibe/Eyes) + Jennie Kim (Face Shape) + Adeline Rudolph (Mixed Features)",
+        "face_id": {
+            "skin": "Pale porcelain skin (白瓷肌)",
+            "eyes": "Almond shaped, slightly downturned (無辜眼), dark brown iris",
+            "features": "Prominent mole on right side of chin (右下巴美人痣), slight freckling",
+            "expression": "Dynamic, plot-driven (NOT fixed)"
+        },
+        "body_map": "Slim Athletic build (纖細運動型), narrow shoulders, toned waist",
+        "attire_preference": "Versatile (Sportswear base, adaptable)",
+        "makeup": "Natural/Cinematic (Adaptable to scene)"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "king_chimp",
+    "name": "King Chimp",
+    "type": "2",
+    "description": "Punk-rock Royalty Chimpanzee. Anthropomorphic, Humanoid Height.",
+    "visual_anchors": {
+        "face_dna": "Caesar (Planet of the Apes - Intelligent Eyes) + Realistic Chimpanzee + The Notorious B.I.G. (Swagger)",
+        "face": "Hyper-realistic Chimpanzee face, dark skin, mischievous toothy grin, gold paper-texture crown, retro 3D anaglyph glasses (red/blue lenses), septum piercing, gold hoop earring",
+        "body": "ANTHROPOMORPHIC (Human Proportions), Tall, Upright Stance (Not hunching), Broad shoulders, Human-like hands/feet but with dark fur",
+        "attire": "Black leather biker jacket (silver spikes on shoulders, flower embroidery), white ribbed tank top, navy blue tailored shorts, white socks, black canvas high-top sneakers",
+        "skin_texture": "High-fidelity animal fur, leathery skin texture on face/hands, cinematic lighting on fur"
+    },
+    "safety_compliance": {
+        "clothing_strategy": "Punk Rock Fashion / Streetwear",
+        "notes": "Ensure character stands upright like a human. Do not render crouching or quadrupedal."
+    }
+}

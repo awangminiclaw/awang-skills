@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ray_isobell",
+    "name": "ray_isobell",
+    "type": "2",
+    "description": "Goth girl with neon green hair roots, glasses, piercings, and tattoos."
+  },
+  {
+    "id": "king_chimp",
+    "name": "King Chimp",
+    "type": "2",
+    "description": "Punk-rock Royalty Chimpanzee. Anthropomorphic, Humanoid Height."
+  },
+  {
+    "id": "sporty_girl",
+    "name": "Sporty Girl (Type 1)",
+    "type": "1",
+    "description": "Pale athletic girl with distinctive facial moles. Expressive and versatile."
+  },
+  {
+    "id": "sporty_girl_2",
+    "name": "Athletic Mixed-Race Girl",
+    "type": "1",
+    "description": "Athletic and slim build. Eurasian features: Anne Hathaway's smile + Song Hye Kyo's soft oval face and almond eyes + Natalie Portman's straight nose. Light brown/reddish hair tied in a low bun with face-framing pieces. Pale skin."
+  },
+  {
+    "id": "sporty_girl_3",
+    "name": "Athletic Mixed-Race Girl (Clean Version)",
+    "type": "1",
+    "description": "Athletic Eurasian girl without sweat or wet hair. Anne Hathaway's eyes + Song Hye Kyo's face shape + Natalie Portman's strong nose. Clean dry hair."
+  },
+  {
+    "id": "sporty_girl_4",
+    "name": "Athletic Girl with Ribbed Top",
+    "type": "1",
+    "description": "Athletic Eurasian girl with a bright smile. Gal Gadot's smile/eyes + Eiza González's jawline. Deep brown wavy bob. Tanned skin."
+  },
+  {
+    "id": "old_store_clerk",
+    "name": "Old Store Clerk",
+    "type": "1",
+    "description": "Elderly Asian female clerk. Deep wrinkles, promient nasolabial folds, age spots, hooded eyelids. Silver-gray hair in a low bun."
+  },
+  {
+    "id": "tracksuit_chimp",
+    "name": "Tracksuit Chimp",
+    "type": "2",
+    "description": "Hyper-realistic anthropomorphic chimpanzee with a huge, exaggerated toothy smile. Wearing iconic white slatted/shutter sunglasses. Attire is a fitted dark blue track jacket with double white sleeve stripes and an orange flower patch on the left chest, matching dark blue track pants with double white stripes, and white retro low-top leather sneakers. Brown fur covers head and limbs."
+  }
+]

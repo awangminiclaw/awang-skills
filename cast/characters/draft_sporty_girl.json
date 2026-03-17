@@ -1,0 +1,19 @@
+{
+    "id": "draft_sporty_girl",
+    "name": "New Character (Unnamed)",
+    "type": "1 (素衣 - Face/Body Fixed)",
+    "description": "Pale athletic girl with distinctive facial moles and crying makeup history.",
+    "visual_anchors": {
+        "face_dna": "Nana Komatsu (Vibe/Eyes) + Jennie Kim (Face Shape) + Adeline Rudolph (Mixed Features)",
+        "face_id": {
+            "skin": "Pale porcelain skin (白瓷肌)",
+            "eyes": "Almond shaped, slightly downturned (無辜眼), dark brown iris",
+            "features": "Prominent mole on right side of chin (右下巴美人痣), slight freckling",
+            "expression": "Melancholic, teary-eyed range"
+        },
+        "body_map": "Slim Athletic build (纖細運動型), narrow shoulders, toned waist",
+        "attire_preference": "Sportswear / Streetwear (Changeable)",
+        "makeup": "Smudged mascara/tears (Changeable)"
+    },
+    "notes": "User requested: Makeup and outfit can change, others consistent."
+}
