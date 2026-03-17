@@ -1,0 +1,107 @@
+[
+    {
+        "id": "uuid-1",
+        "timestamp": "2026-02-09T09:09:00+08:00",
+        "topic": "Roller Girl (80s Synthwave)",
+        "style": "UE5 / CGI",
+        "content": "Image Prompt:\n\nSTYLE: • Visual Aesthetic: 80s Retro-Pop, Vibrant Pastel, Hyper-Stylized • Media: UE5 Render (Love, Death & Robots Style) • Quality: Hyper-realistic, 8K, Ray-tracing, Micro-details\n\nSUBJECT: • Description: Young woman with voluminous curly blonde hair, retro white visor • Texture & Skin: Real skin pores, vellus hair, slight sweat sheen from skating, subsurface scattering, imperfections (freckles, mole) • Wardrobe: High-cut neon yellow gym leotard (visible fabric weave), pink spandex leggings (slight stretching texture), white roller skates with orange wheels (scuffed plastic), oversized turquoise hoop earrings\n\nSCENE: • Location: Miami Beach Boardwalk • Time of Day: Golden Hour (Sunset) • Atmosphere: Volumetric fog, dust motes dancing in light, humid heat haze, lens flares\n\nCINEMATOGRAPHY: • Camera: Arri Alexa 65 • Lens: Panavision C-Series Anamorphic (horizontal flares) • Lighting: Cinematic lighting, strong warm rim light separating subject from background, soft fill • Framing: Low-angle tracking shot, dynamic motion\n\nTECH SPECS: • Engine/Film: Unreal Engine 5.4 (Path Tracing) • Effects: Chromatic aberration, heavy film grain, bokeh (anamorphic oval), dirty lens textures • Grading: Hollywood color grading, teal and orange, high contrast HDR\n\n(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)"
+    },
+    {
+        "id": "uuid-2",
+        "timestamp": "2026-02-09T09:30:00+08:00",
+        "topic": "Roller Girl (80s Synthwave) - RE-RUN",
+        "style": "Cinematic Hyper-Realism (CGI) - Weta Level",
+        "content": "Image Prompt:\n\nSTYLE: • Visual Aesthetic: 80s Retro-Pop, Gritty Realism • Media: CGI by Weta Digital / Blur Studio • Quality: Photorealistic, 8K, Pathtracing, Uncanny Valley Breaker\n\nSUBJECT: • Description: Young woman skating • Texture & Skin: Hyper-detailed skin pores, uneven complexion, vellus hair on cheeks backlit by sun, beads of sweat on forehead, translucent ears (Subsurface Scattering), slight sunburn on nose • Wardrobe: High-cut neon yellow leotard with visible fabric pilling and loose threads, sweat stains, scratched plastic visor with fingerprints, scuffed leather roller skates with road dust\n\nSCENE: • Location: Miami Beach Boardwalk • Time of Day: Late Golden Hour • Atmosphere: Heavy humidity, ozone, tangible heat haze, airborne dust particles\n\nCINEMATOGRAPHY: • Camera: Arri Alexa 65 • Lens: Panavision C-Series Anamorphic T2.3 • Lighting: High Dynamic Range (HDR), harsh rim light, natural bounce fill • Framing: CinemaScope 2.39:1, Low angle following movement\n\nTECH SPECS: • Engine: Unreal Engine 5.4 (Path Tracer) / Octane Render • Post-Process: ACEScg color space, heavy 35mm Film Grain, Halation around highlights, Lens Distortion, Dirty Lens flares (dust on glass)\n\n(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)"
+    },
+    {
+        "id": "uuid-14",
+        "timestamp": "2026-02-09T11:15:00+08:00",
+        "topic": "Roller Girl (80s Synthwave) - WETA V11 (MASTERPIECE EDITION)",
+        "style": "Love, Death & Robots (Masterpiece)",
+        "content": "Image Prompt:\n\n**VISION CONCEPT**: A hyper-realistic cinematic masterpiece depicting a young woman roller skating on a sun-drenched boardwalk. The visual style follows the aesthetic of 'Love, Death & Robots', emphasizing micron-level physical details, complex light-material interaction, and a heavy, vibrant life-narrative atmosphere. Rendered using a virtual Unreal Engine 5 MetaHuman pipeline with high-fidelity physics and optical accuracy.\n\n**SUBJECT_DATA**:\n• **Character**: Young woman, athletic build, expression of focused exhilaration.\n• **MetaHuman Skin**: **Micro-pore expansion**, **T-zone sebum secretion** with subtle oily specular highlights. Sun-kissed cheeks with scattering of sun-bleached freckles. **High-intensity SSS** on earlobes and fingertips (warm reddish translucency) where sunlight hits.\n• **Grooming**: Strand-based hair system (Groom), windswept curls, fine golden vellus hairs visible on the jawline and shoulders under strong rim lighting, beads of perspiration accumulating on hairline.\n• **Attire**: High-cut neon yellow leotard (**Simulated Spandex**), realistic stretching and folding (cloth simulation), visible fabric fiber weave. Scuffed plastic on roller skates, oxidized metal eyelets.\n\n**ENVIRONMENTAL_DATA**:\n• **Foreground**: Ultra-close-up textured asphalt with heat distortion, swirling dust particles.\n• **Atmosphere**: **Thick volumetric golden haze**, Tyndall effect (God rays) piercing through palm trees, palpable humidity.\n\n**CINEMATOGRAPHY & LIGHT**:\n• **Camera**: Virtual Arri Alexa 65, Panavision C Series Anamorphic Lenses, f/2.0.\n• **Lighting**: Dual-tone lighting: Cool ocean breeze ambient fill vs. Sharp golden rim light creating a halo.\n• **Post-Process**: **Bleach Bypass process** (High contrast, slightly desaturated mid-tones), Physical 35mm film grain, Chromatic aberration, Anamorphic lens flares.\n\n**TECH_STACK**: Unreal Engine 5 (Lumen Hardware Ray-Traced GI, Nanite Geometry), Movie Render Queue (64 spatial samples).\n\n(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)"
+    },
+    {
+        "id": "uuid-15",
+        "timestamp": "2026-02-09T12:50:00+08:00",
+        "topic": "Frozen Tsunami (Avant-Garde Fashion)",
+        "style": "Love, Death & Robots / UE5 (Physics)",
+        "content": "Image Prompt (Water Dress)..."
+    },
+    {
+        "id": "uuid-16",
+        "timestamp": "2026-02-09T16:20:01+08:00",
+        "topic": "The Morning Dew (Zen Bamboo Forest)",
+        "style": "UE5 Masterpiece (Natural Physics)",
+        "content": "Image Prompt:\n\n**VISION CONCEPT**: A hyper-realistic cinematic extreme close-up of a morning dew drop on a bamboo leaf tip. Visual style follows 'Planet Earth III' but rendered in UE5 with **Ray-Traced Caustics**. \n\n**SUBJECT_DATA**:\n• **Subject**: A single, perfect sphere of water (Morning Dew) hanging from a sharp bamboo leaf tip.\n• **Physics**: **Surface Tension** holding the droplet in a perfect oblate spheroid shape.\n• **Texture**: The bamboo leaf has microscopic ridges (displacement map) and fine fuzz (vellus hairs), green color with slight yellowing at the tip.\n\n**ENVIRONMENTAL_DATA**:\n• **Reflection**: Inside the droplet is a crisp, inverted refraction of the entire bamboo forest and the rising sun.\n• **Atmosphere**: Cool, blue-tinted morning mist in the background.\n\n**CINEMATOGRAPHY**:\n• **Camera**: Virtual Arri Alexa 65, 100mm Macro Lens, f/2.8.\n• **Lighting**: Soft diffuse morning light + Sharp refraction inside the droplet.\n\n**TECH_STACK**: Unreal Engine 5 (Path Tracing, Caustics enabled).\n\n(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)"
+    },
+    {
+        "id": "uuid-17",
+        "timestamp": "2026-02-09T16:20:02+08:00",
+        "topic": "Wind in the Bamboo (Zen Bamboo Forest)",
+        "style": "UE5 Masterpiece (Natural Physics)",
+        "content": "Image Prompt:\n\n**VISION CONCEPT**: A wide angle cinematic shot of a bamboo forest bending under a strong wind gust. Emphasizing **Foliage Physics** and **Motion Blur**.\n\n**SUBJECT_DATA**:\n• **Subject**: Dense Bamboo Forest (Moso Bamboo).\n• **Physics**: **Wind Interaction**. Bamboo stalks bending elastically, leaves fluttering violently in a unified direction (Vertex Animation).\n\n**ENVIRONMENTAL_DATA**:\n• **Atmosphere**: Dynamic dust and loose leaves flying through the air (Niagara Particle System).\n• **Lighting**: Dappled sunlight flickering rapidly on the ground as the canopy moves.\n\n**CINEMATOGRAPHY**:\n• **Camera**: Virtual Arri Alexa 65, 24mm Wide Angle, High Shutter Speed to freeze some leaves while blurring others.\n• **Lighting**: Harsh sunlight cutting through the canopy.\n\n**TECH_STACK**: Unreal Engine 5 (Lumen, Nanite Foliage).\n\n(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)"
+    },
+    {
+        "id": "uuid-18",
+        "timestamp": "2026-02-09T16:20:03+08:00",
+        "topic": "After the Rain (Zen Bamboo Forest)",
+        "style": "UE5 Masterpiece (Natural Physics)",
+        "content": "Image Prompt:\n\n**VISION CONCEPT**: A hyper-realistic ground-level shot focusing on wet textures and reflection after a rainstorm.\n\n**SUBJECT_DATA**:\n• **Subject**: Mossy stone ground and a small puddle.\n• **Texture**: **Wetness Shader**. Everything is soaking wet, with high Specular intensity. Moss is vibrantly green and saturated.\n• **Action**: A small tree frog leaping into the puddle, creating a physically accurate splash crown.\n\n**ENVIRONMENTAL_DATA**:\n• **Reflection**: The puddle reflects the sky and bamboo tops (Ray-Traced Reflections).\n• **Atmosphere**: Heavy humidity, petrichor feel.\n\n**CINEMATOGRAPHY**:\n• **Camera**: Low angle, 50mm lens.\n• **Lighting**: Overcast soft skylight, even lighting with strong reflections.\n\n**TECH_STACK**: Unreal Engine 5 (Lumen Reflections, Fluid Sim for splash).\n\n(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)"
+    },
+    {
+        "id": "uuid-19",
+        "timestamp": "2026-02-09T16:20:04+08:00",
+        "topic": "Firefly Glow (Zen Bamboo Forest)",
+        "style": "UE5 Masterpiece (Natural Physics)",
+        "content": "Image Prompt:\n\n**VISION CONCEPT**: A low-light cinematic shot of fireflies in the bamboo forest at twilight. Focus on **Bio-luminescence** interaction with foliage.\n\n**SUBJECT_DATA**:\n• **Subject**: Glow of fireflies (Lampyridae).\n• **Lighting**: The light comes ONLY from the fireflies (Green-Yellow swatches) illuminating the nearby bamboo leaves (Translucency/SSS) and tall grass.\n\n**ENVIRONMENTAL_DATA**:\n• **Atmosphere**: Deep twilight blue ambient, heavy grain typical of low-light film photography.\n• **Depth**: Shallow depth of field with bokeh balls in background.\n\n**CINEMATOGRAPHY**:\n• **Camera**: 85mm Prime, f/1.2 (Wide Open).\n• **Lighting**: No artificial lights, just Bioluminescence + Moon skylight.\n\n(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)"
+    },
+    {
+        "id": "uuid-20",
+        "timestamp": "2026-02-09T16:20:05+08:00",
+        "topic": "Eye of the Forest (Zen Bamboo Forest)",
+        "style": "UE5 Masterpiece (Natural Physics)",
+        "content": "Image Prompt:\n\n**VISION CONCEPT**: A telephoto shot looking through dense bamboo stalks to reveal a wild Sika Deer. Focus on **Grooming (Fur)** and **Eye Reflection**.\n\n**SUBJECT_DATA**:\n• **Subject**: Sika Deer (Cervus nippon).\n• **Texture**: Hyper-realistic fur (Groom), distinct wet nose texture, whiskers.\n• **Eyes**: Glassy, reflective eyes catching a glint of sunlight.\n\n**ENVIRONMENTAL_DATA**:\n• **Foreground**: Out-of-focus bamboo stalks framing the shot (dirty foreground technique).\n• **Lighting**: Backlit (Rim light) highlighting the fuzz on the deer's ears and antlers.\n\n**CINEMATOGRAPHY**:\n• **Camera**: 200mm Telephoto Lens, f/4.0.\n• **Lighting**: Golden hour backlighting.\n\n(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)"
+    }
+]```text
+Image Prompt:
+
+**VISION CONCEPT**: A hyper-realistic cinematic masterpiece depicting a Burning Carousel abandoned in a desolate carnival at night. The visual style follows the aesthetic of 'Love, Death & Robots' (Jibaro/Aquila Rift), emphasizing micron-level physical details, complex light-material interaction, and a heavy, gritty narrative atmosphere. Rendered using a virtual Unreal Engine 5 MetaHuman pipeline.
+
+**SUBJECT_DATA**:
+• **Character**: A decaying carousel horse, paint peeling to reveal charred wood underneath. Its glass eye reflects the flames perfectly. The pole is rusted iron.
+• **Material Physics**: Blistered paint texture, carbonized wood grain, melting plastic decorations dripping like wax.
+• **Atmosphere**: Thick, oily black smoke mixing with glowing embers. The heat distortion (shimmer) is visible around the flames.
+
+**ENVIRONMENTAL_DATA**:
+• **Foreground**: Ashes, broken light bulbs, and a child's lost teddy bear half-buried in mud and soot.
+• **Midground**: The skeletal structure of the carousel roof collapsing under the fire.
+• **Background**: A ghostly green aurora borealis in the night sky, contrasting with the orange fire.
+• **Atmosphere**: Volumetric fire effects, sparks flying in the wind, heavy fog rolling in from the edges.
+
+**CINEMATOGRAPHY & LIGHT**:
+• **Camera**: Virtual Arri Alexa 65, Panavision C Series Anamorphic Lenses, f/2.0. Low angle shot looking up at the horse.
+• **Lighting**: Dual-tone lighting: Intense warm orange from the fire vs. Eerie cold green from the aurora. High contrast.
+• **Post-Process**: Bleach Bypass process (High contrast, desaturated), Physical 35mm film grain, Chromatic aberration, Halation on the flames.
+
+**TECH_STACK**: Unreal Engine 5 (Lumen GI, Nanite Geometry, Niagara Fire Fluids, Ray-Traced Reflections), Movie Render Queue (64 spatial samples).
+
+(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)
+```
+
+```text
+Video Prompt:
+
+[UE5 / CGI Render] 
+[Duration: 5s]
+[Camera Movement: Slow Dolly In + Slight Orbit]. A cinematic sequence showing the carousel slowly rotating while burning.
+
+**VISUALS**:
+• **Camera**: Starts low, focusing on the horse's eye, then slowly pushes in while rotating around the pole.
+• **Physics**: The fire roars and licks the wood. Paint blisters and pops. Sparks swirl violently in the updraft. The carousel creaks as it turns.
+• **Atmosphere**: Smoke billowing, heat distortion blurring the background green lights.
+
+**AUDIO (SFX)**:
+• **SFX**: Roaring fire, cracking wood, groaning metal gears, a distorted and slowing down carnival music box melody (creepy waltz).
+
+(以下為虛構情節，所有角色皆為虛構或經官方開放創作使用)
+```
