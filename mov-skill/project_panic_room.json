@@ -1,0 +1,204 @@
+{
+    "Video_Clips": [
+        {
+            "Status": "[ ]",
+            "Shot_ID": "01",
+            "Type": "Master Shot (Deep Focus)",
+            "Scene": "INT. KITCHEN BAR - NIGHT",
+            "Drama_Focus": "Establishing the 'Arsenal' and the dormant 'Guardian'.",
+            "Consistency_Anchor": "David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand. Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands. The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal BLUE LED Visor (Dormant). Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints. Detail: 'A-7' Serial Number printed on left chest.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, IMAX 15/70mm Lens, Teal & Orange Color Grading, High Contrast + Smart Mansion 'The Apex' Kitchen Island. FG: Marble Countertop covered in 'Bar Tools' - Heavy Crystal Decanter, Silver Ice Pick. MG: David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand, standing with relaxed posture. ACTION SPECIFIC: David is holding a Flawless, Hand-Carved Crystal Clear Ice Sphere (7cm diameter) in his left palm, holding it up to inspect its clarity. His right hand (wearing Silver Ring) loosely holds the silver ice pick by his side (Resting). Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands, sitting. BG: The Smart Wall glowing blue and ONE expensive The 'Aegis-7' Security Droid standing dormant against the wall -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal BLUE LED Visor (Dormant). Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints. Detail: 'A-7' Serial Number printed on left chest. TEXTURE DETAILS: Refraction through clear ice sphere, condensation, polished ceramic. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Slow push in on David. AUDIO: loud 'CLINK' of ice dropped into glass, jazz music, faint hum of robot charging station."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "02",
+            "Type": "Close Up",
+            "Scene": "INT. DAVID - HANDS",
+            "Drama_Focus": "Foreshadowing violence: The Ice Pick is dangerous even when used normally. Chekhov's Gun.",
+            "Consistency_Anchor": "David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, Hasselblad Macro Lens, Teal & Orange Color Grading + Marble Bar Surface + David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand + EXTREME CLOSE UP ACTION: David gently placing the Perfect Crystal Ice Sphere into a Heavy Whiskey Glass. The Silver Ice Pick lies next to it on the marble, its sharp tip glistening dangerously in the key light. The ice is perfectly round and geometric. TEXTURE DETAILS: Macro steel scratched texture, water droplets on glass, cold vapor. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Static shot. The ice settles. AUDIO: Crystal 'Clink', heavy breathing."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "03",
+            "Type": "Insert Shot",
+            "Scene": "INT. SMART SCREEN",
+            "Drama_Focus": "The Inciting Incident: The System activates the 'Cleaner'. The Threat wakes up.",
+            "Consistency_Anchor": "The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, Macro Lens, Teal & Orange Color Grading + Smart Fridge Interface + A sleek UI screen shifting from calm blue to WARNING RED. Text reads: 'BIO-HAZARD DETECTED: PURGE SEQUENCE INITIATED'. In the blurred background, the The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor snaps its head up, visor engaging in RED. TEXTURE DETAILS: LED pixel grid, red glow, bokeh. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Rack focus from Screen (FG) to Robot (BG) waking up. AUDIO: Digital error tone 'BZZZT', followed by a heavy mechanical 'THUD' of the robot stepping off the dock."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "04",
+            "Type": "Reaction Shot",
+            "Scene": "INT. SARAH - FACE",
+            "Drama_Focus": "The human reaction to the physical threat. Realizing they are locked in with a killer.",
+            "Consistency_Anchor": "Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, Hasselblad Portrait Lens, Teal & Orange Color Grading + Kitchen Bar Background + Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands + Sarah looking past the fridge, eyes widened in absolute terror, staring directly at the 'Aegis-7' Robot (Off-screen source of fear). The red warning light reflects harshly on her sweat-slicked skin. + Close Up Profile. TEXTURE DETAILS: Catchlight in eyes (reflecting red visor), skin tension. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Static shot. Sarah slowly backs away. AUDIO: The heavy footsteps of the robot approaching."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "05",
+            "Type": "Wide Shot",
+            "Scene": "INT. LIVING ROOM",
+            "Drama_Focus": "The Trap: Sealing the vessel for 'Sterilization'.",
+            "Consistency_Anchor": "Smart Mansion 'The Apex' Living Room, Emergency Lockdown Mode, aggressive RED emergency strip lighting, massive steel security shutters.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, IMAX Wide Lens, Teal & Orange Color Grading + Smart Mansion 'The Apex' Living Room, Emergency Lockdown Mode, aggressive RED emergency strip lighting, massive steel security shutters + Empty Room, No People, Void of Life + Huge steel shutters slamming down outside the windows, sealing the room hermetically + Wide Shot, low angle, volumetric red fog. TEXTURE DETAILS: Volumetric red fog, cold industrial feel. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Camera shakes vertically with the slam of the shutters. AUDIO: deafening metal impact (BOOM), vacuum pumps starting."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "06",
+            "Type": "Close Up",
+            "Scene": "INT. SARAH - HANDS",
+            "Drama_Focus": "Physical manifestation of fear without showing the face yet.",
+            "Consistency_Anchor": "Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, Hasselblad Macro Lens, Teal & Orange Color Grading + Smart Mansion 'The Apex' Living Room, Red Strobe Lighting + Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands + Sarah's hands trembling uncontrollably, covering her mouth, nails digging into skin + Extreme Close Up on hands, harsh red lighting. TEXTURE DETAILS: Skin tension, sweat starting to form, fabric texture. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Static shot, hands shaking in frame. AUDIO: sharp intake of breath, high pitched tinnitus sound."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "07",
+            "Type": "Medium Action",
+            "Scene": "INT. KITCHEN",
+            "Drama_Focus": "The Siege: The Robot blocks the only exit. They are trapped.",
+            "Consistency_Anchor": "The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints. Detail: 'A-7' Serial Number printed on left chest. Carbon-fiber Stun Baton.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, IMAX Wide Lens, Teal & Orange Color Grading + Living Room Entrance + The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints. Detail: 'A-7' Serial Number printed on left chest standing perfectly still in front of the sealed Steel Shutters. It blocks the only exit. Its Stun Baton extends with a crackle of blue electricity. + Full Shot, menacing silhouette against the red emergency lights. TEXTURE DETAILS: Glossy white armor, electrical arcs, cold steel. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Slow push in on the Robot. AUDIO: Electric humming of the baton, mechanical servo whirring."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "08",
+            "Type": "Two Shot (Mid)",
+            "Scene": "INT. KITCHEN ISLAND",
+            "Drama_Focus": "Visual Q&A Answer: The Robot attacks (Cause) -> They nearly die (Effect).",
+            "Consistency_Anchor": "David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand. Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, Hasselblad Portrait Lens, Teal & Orange Color Grading + Behind Marble Kitchen Island + The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints. Detail: 'A-7' Serial Number printed on left chest SMASHES its Stun Baton into the top of the marble counter, sending marble shards flying (Explosive Impact). David and Sarah are ducking violently behind it, debris raining down on them. David shields Sarah. + Action Two Shot, chaotic motion. TEXTURE DETAILS: Exploding marble, electrical sparks from baton, dust. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Camera shakes violently on impact. AUDIO: DEAFENING CRACK of marble shattering, electric zap."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "09",
+            "Type": "Low Angle",
+            "Scene": "INT. KITCHEN FLOOR",
+            "Drama_Focus": "The Threat revealed: Intruder Countermeasures Activated.",
+            "Consistency_Anchor": "The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints. Detail: 'A-7' Serial Number printed on left chest. Carbon-fiber Stun Baton.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, GoPro Crash Cam, Teal & Orange Color Grading + Marble Floor Level + The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints. Detail: 'A-7' Serial Number printed on left chest activating HOSTILE MODE. Its Visor shifts to DEEP AGGRESSION-RED. It steps forward with heavy hydraulic weight. A carbon-fiber Stun Baton extends from its arm. Low Angle. TEXTURE DETAILS: Scuffed white ceramic, glowing red visor, electric arcs. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Tracking the robots charging. AUDIO: High-pitched motor whine rising to a scream."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "10",
+            "Type": "Action",
+            "Scene": "INT. KITCHEN ISLAND",
+            "Drama_Focus": "Using the 'Arsenal' established in Shot 1. David fights back.",
+            "Consistency_Anchor": "David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand. The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, RED Komodo Action Cam, Teal & Orange Color Grading, Sparks + Kitchen Island + David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand + David striking the Chest Plate of The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints (specifically aiming for the 'A-7' Serial Number) with his Ice Pick. The metal tip scrapes off the white ceramic shell, creating sparks. Action Shot, futile impact. TEXTURE DETAILS: Gouged ceramic, motion blur. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Camera shakes on impact. AUDIO: Crunch of plastic, electric zap, robotic shriek."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "11",
+            "Type": "Medium Shot",
+            "Scene": "INT. KITCHEN ISLAND",
+            "Drama_Focus": "Sarah is not a victim. She uses the 'Bar' environment. Partner dynamic.",
+            "Consistency_Anchor": "Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands. The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, RED Komodo Action Cam, Teal & Orange Color Grading + Kitchen Island + Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands + Sarah throwing the Heavy Crystal Decanter at the Faceplate of The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints as it vaults the counter. Amber liquid exploding everywhere. Medium Action Shot. TEXTURE DETAILS: Flying amber liquid, shattering crystal, wet white ceramic. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Follow the throw. AUDIO: Glass shatter, liquid splash, metal thud."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "12",
+            "Type": "Wide Shot (Overhead)",
+            "Scene": "INT. KITCHEN ISLAND",
+            "Drama_Focus": "The Siege: A tactical takedown unit vs humans.",
+            "Consistency_Anchor": "David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand. Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands. The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, IMAX Wide Lens, Teal & Orange Color Grading + Kitchen + David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand and Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands trapped in the corner of the kitchen island, while The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints stalks them with mechanical precision, blocking the exit + High Angle. TEXTURE DETAILS: Red laser scanning, tense atmosphere. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Slow rotation from above (God's Eye). AUDIO: The grinding noise of stalled motors."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "13",
+            "Type": "Close Up",
+            "Scene": "INT. SARAH - HANDS",
+            "Drama_Focus": "The resourcefulness. Finding the next weapon.",
+            "Consistency_Anchor": "Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, Hasselblad Macro Lens, Teal & Orange Color Grading + Bar Counter + Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands + Sarah grabbing a bottle labeled '96% SPIRIT' (High Proof Vodka) from the shelf, uncorking it hurriedly + Close Up on label and hands. TEXTURE DETAILS: Label text details, glass reflection, manicured nails. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Static shot. AUDIO: Cork pop sound."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "14",
+            "Type": "Action",
+            "Scene": "INT. KITCHEN STOVE",
+            "Drama_Focus": "The Plan: Creating a fire hazard intentionally.",
+            "Consistency_Anchor": "Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands. The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, RED Komodo Action Cam, Teal & Orange Color Grading + Kitchen Stove Area + Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands + Sarah pouring the high-proof alcohol directly onto the floor in front of the advancing The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints + Medium Shot, fluid dynamics. TEXTURE DETAILS: Liquid splashing on marble, wet floor. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Panning with the liquid splash. AUDIO: Glug-glug-glug liquid pouring sound."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "15",
+            "Type": "Close Up",
+            "Scene": "INT. GAS PIPE",
+            "Drama_Focus": "David escalating the plan. The 'Nuclear Option'.",
+            "Consistency_Anchor": "David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, Hasselblad Macro Lens, Teal & Orange Color Grading + Behind Stove + David's hands + David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand gripping the copper gas pipe connection behind the stove, muscles straining to snap it + Extreme Close Up, metal bending, paint chipping. TEXTURE DETAILS: Veins on hands, metal stress. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Camera vibrates with the strain. AUDIO: Metal groaning, then a loud HISS."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "16",
+            "Type": "Two Shot",
+            "Scene": "INT. KITCHEN ISLAND",
+            "Drama_Focus": "The 'Ride or Die' moment. Silent communication before the end.",
+            "Consistency_Anchor": "David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit. Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, Hasselblad Portrait Lens, Teal & Orange Color Grading + Hazy Kitchen (Gas) + David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand and Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands + They lock eyes for a split second, David nodding to Sarah, Sarah holding the lighter + Close Two Shot, profile view, sweat and grime on faces. TEXTURE DETAILS: Sweat droplets, gas distortion waves in air. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Slow motion moment. AUDIO: Heartbeat thumping over the hissing gas."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "17",
+            "Type": "Close Up",
+            "Scene": "INT. LIGHTER",
+            "Drama_Focus": "Ignition. The classic cinematic insert.",
+            "Consistency_Anchor": "Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands. Silver Zippo Lighter.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, IMAX Macro Lens, Teal & Orange Color Grading + Dark Background + Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands + Sarah flicks the Silver Zippo Lighter, the flame engaging instantly in slow motion + Extreme Close Up, the flame is the only light source. TEXTURE DETAILS: Fire physics, fingerprint smudge on silver. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Static shot. AUDIO: Metallic 'Clink', then 'Whoosh'."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "18",
+            "Type": "Action",
+            "Scene": "INT. KITCHEN",
+            "Drama_Focus": "The Throw. Delivering the payload.",
+            "Consistency_Anchor": "Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands. The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, RED Komodo Action Cam, Teal & Orange Color Grading + Kitchen + Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands + Sarah tossing the lit lighter into the pool of alcohol at the feet of The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints + Low angle, lighter spinning in air. TEXTURE DETAILS: Motion blur on lighter. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Camera tracks the lighter through the air. AUDIO: Doppler effect of the lighter moving away."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "19",
+            "Type": "Action",
+            "Scene": "INT. KITCHEN",
+            "Drama_Focus": "The Dive. Survival depends on unity.",
+            "Consistency_Anchor": "David, 40s, sharp facial features, short boxed beard. Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress. Diving Together.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, RED Komodo Action Cam, Teal & Orange Color Grading + Kitchen + David, 40s, sharp facial features, short boxed beard, wearing expensive grey suit, Silver Signet Ring on right hand and Sarah, 30s, long blonde hair, wearing red sleeveless cocktail dress, manicured hands, holding hands, diving over the far side of the sturdy marble island / pantry door. In the background, The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints. Detail: 'A-7' Serial Number printed on left chest DETONATES, shattering into flying white ceramic shards and black mechanical debris amidst a massive fireball + Wide Action Shot, bodies parallel to ground, heavy contrast. TEXTURE DETAILS: Flying hair, dress fabric flow, exploding robotic debris, volumetric fire. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Slow motion dive. AUDIO: All sound sucks out (silence before blast)."
+        },
+        {
+            "Status": "[ ]",
+            "Shot_ID": "20",
+            "Type": "Wide Shot",
+            "Scene": "INT. KITCHEN - EXPLOSION",
+            "Drama_Focus": "The Payoff. The house is destroyed.",
+            "Consistency_Anchor": "Smart Mansion 'The Apex' Kitchen. The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor.",
+            "Image_Prompt": "/imagine prompt: All required for drama, all actors are virtual, Cinematic Shot, UE5 MetaHuman, Love Death & Robots Quality Style, Photorealistic, IMAX Wide Lens, Teal & Orange Color Grading + Kitchen + No Character + The 'Aegis-7' Security Droid -- Geometry: Smooth Spherical White Glossy Dome Head (No Face). Features: Single Thin Horizontal Glowing Red Laser Visor. Body: Bulky White High-Gloss Plastic Armor with exposed Black Flexible Carbon-Fiber Joints being consumed by a volumetric fireball, the explosion shattering its armor + Extreme Wide Shot, destruction physics. TEXTURE DETAILS: Fire turbulence, shattering glass, metal flying. --ar 21:9 --v 6.0",
+            "I2V_Prompt": "MOTION: Camera shake violent. AUDIO: THE EXPLOSION (Deafening)."
+        }
+    ]
+}
