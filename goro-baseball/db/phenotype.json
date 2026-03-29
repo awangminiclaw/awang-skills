@@ -1,0 +1,12 @@
+{
+  "Character_ID": "nanobanana",
+  "Version": "2.0_Reference_Anchor",
+  "Instruction_Core": "Character identity is strictly anchored by Image 1 (The Pixar Master).",
+  "IDENTITIY_GUARDIANS": {
+    "The_Face": "Always refer to Image 1 for the 'Face Mask' surface and shape.",
+    "The_Ears": "Always refer to Image 1 for the flared side-ear position.",
+    "The_Hair": "Always refer to Image 1 for the signature spiky top tuft.",
+    "The_Body": "Always refer to Image 1 for the 185cm slender athletic proportions."
+  },
+  "STABILITY_OVERRIDE": "Direct Reference over Algorithm. When in doubt, mirror Image 1."
+}
