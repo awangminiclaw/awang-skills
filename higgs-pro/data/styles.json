@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "styles": [
+    {
+      "id": "photorealistic",
+      "name_zh": "真人實拍",
+      "name_en": "Photorealistic / Live Action",
+      "description": "與現實無法區分的真實攝影質感",
+      "mandatory_prefix": "",
+      "keywords": ["Arri Alexa 65", "Kodak Vision3", "Panavision Anamorphic", "35mm film grain", "natural lighting"],
+      "negative_prompt": "",
+      "notes": "無額外標籤，直接使用攝影術語"
+    },
+    {
+      "id": "cgi_hyperrealistic",
+      "name_zh": "超擬真CGI",
+      "name_en": "Cinematic Hyper-Realism (CGI)",
+      "description": "Love, Death & Robots / UE5 風格的高品質 CG",
+      "mandatory_prefix": "Unreal Engine 5 render, Love Death & Robots animation style：1.2, MetaHuman quality, Subsurface Scattering (SSS) skin texture, ACES color system, Hollywood blockbuster composition, Cinemascope 2.35:1, volumetric lighting, anamorphic lens flares, depth of field, stylized realism, ultra-detailed organic textures, 8k resolution, 3D CGI masterpiece.",
+      "keywords": ["MetaHuman", "Lumen", "Nanite", "Ray-Tracing", "SSS"],
+      "negative_prompt": "--no sci-fi, technology, cyborg, robot, mechanical parts, wires, metal skin, glitch, cyberpunk, photograph, camera noise.",
+      "notes": "必須在提示詞開頭注入 mandatory_prefix，除非主題本身需要科幻元素"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "description": "秒數對應分鏡規則資料庫 - 基於好萊塢得獎大片分鏡研究",
+  "rules": [
+    {
+      "seconds": 5,
+      "frame_options": [1, 2],
+      "suggestions": [1, 2],
+      "description": "1-2 分鏡，適合單一動作或情緒轉換",
+      "narrative_structure": "建立 → 結尾（或建立 → 動作 → 結尾）",
+      "pacing": "快節奏，適合廣告、短影音",
+      "tension_curve": [3, 8, 3],
+      "storyboard_templates": [
+        {
+          "frames": 1,
+          "structure": "單一鏡頭，建立即結尾",
+          "camera_suggestions": ["Dolly In", "Slow Cinematic Arc", "Crash Zoom In"],
+          "average_shot_duration": 5.0
+        },
+        {
+          "frames": 2,
+          "structure": "建立 → 動作/轉折",
+          "camera_suggestions": ["Dolly In → Static", "Pan → Tilt Up", "Static → Push In"],
+          "average_shot_duration": 2.5
+        }
+      ]
+    },
+    {
+      "seconds": 8,
+      "frame_options": [2, 3],
+      "suggestions": [2, 3],
+      "description": "2-3 分鏡，適合簡單敘事",
+      "narrative_structure": "建立 → 發展 → 結尾（或建立 → 轉折 → 解決）",
+      "pacing": "標準節奏，適合短片、MV片段",
+      "tension_curve": [2, 5, 7, 4],
+      "storyboard_templates": [
+        {
+          "frames": 2,
+          "structure": "建立 → 結尾（附帶動作）",
+          "camera_suggestions": ["Wide → Close Up", "Establishing → Character Focus"],
+          "average_shot_duration": 4.0
+        },
+        {
+          "frames": 3,
+          "structure": "建立 → 衝突 → 解決",
+          "camera_suggestions": ["Wide → Medium → Close Up", "Dolly → Pan → Static"],
+          "average_shot_duration": 2.67
+        }
+      ]
+    },
+    {
+      "seconds": 10,
+      "frame_options": [3, 4],
+      "suggestions": [3, 4],
+      "description": "3-4 分鏡，完整小故事弧",
+      "narrative_structure": "起（Hook）→ 承（Build）→ 轉（Climax）→ 合（Resolve）",
+      "pacing": "完整節奏，適合電影預告片段、品牌故事",
+      "tension_curve": [2, 5, 9, 6, 2],
+      "storyboard_templates": [
+        {
+          "frames": 3,
+          "structure": "開場 → 高潮 → 結尾",
+          "camera_suggestions": ["Crane Up → Dolly In → Static", "Drone → Close Up → Wide"],
+          "average_shot_duration": 3.33
+        },
+        {
+          "frames": 4,
+          "structure": "開場 → 發展 → 高潮 → 結尾",
+          "camera_suggestions": ["Wide → Medium → Close Up → Wide", "Dolly → Truck → Orbit → Pull Back"],
+          "average_shot_duration": 2.5
+        }
+      ]
+    },
+    {
+      "seconds": 15,
+      "frame_options": [4, 5],
+      "suggestions": [4, 5],
+      "description": "4-5 分鏡，有起承轉合",
+      "narrative_structure": "ACT1 建立（1-2鏡）→ ACT2 發展（2-3鏡）→ ACT3 高潮（1鏡）",
+      "pacing": "完整敘事，適合紀錄片片段、品牌故事",
+      "tension_curve": [1, 3, 6, 8, 7, 3],
+      "storyboard_templates": [
+        {
+          "frames": 4,
+          "structure": "建立 → 發展 → 高潮 → 解決",
+          "camera_suggestions": ["Wide → Medium → Close Up → Wide", "Drone → Dolly → Crash Zoom → Pull Back"],
+          "average_shot_duration": 3.75
+        },
+        {
+          "frames": 5,
+          "structure": "建立 → 衝突 → 發展 → 高潮 → 解決",
+          "camera_suggestions": ["Wide → Medium → Close Up → Extreme Close → Wide"],
+          "average_shot_duration": 3.0
+        }
+      ]
+    },
+    {
+      "seconds": 20,
+      "frame_options": [5, 6],
+      "suggestions": [5, 6],
+      "description": "5-6 分鏡，完整故事節奏",
+      "narrative_structure": "ACT1 開場建立（1-2鏡）→ ACT2 衝突升級（2-3鏡）→ ACT3 高潮轉折（1鏡）→ ACT4 解決收尾（1鏡）",
+      "pacing": "完整短片，適合微電影、音樂視頻",
+      "tension_curve": [1, 2, 4, 7, 9, 6, 2],
+      "storyboard_templates": [
+        {
+          "frames": 5,
+          "structure": "開場 → 建立 → 發展 → 高潮 → 結尾",
+          "camera_suggestions": ["Wide → Medium → Medium → Close Up → Wide"],
+          "average_shot_duration": 4.0
+        },
+        {
+          "frames": 6,
+          "structure": "開場 → 建立 → 衝突 → 發展 → 高潮 → 結尾",
+          "camera_suggestions": ["Wide → Medium → Medium → Close Up → Extreme Close → Wide"],
+          "average_shot_duration": 3.33
+        }
+      ]
+    }
+  ],
+  "hollywood_references": {
+    "5_seconds": "類似超級盃廣告、Instagram Reels",
+    "8_seconds": "類似TikTok短片、YouTube Shorts",
+    "10_seconds": "類似電影預告精華片段、品牌形象片",
+    "15_seconds": "類似音樂視頻片段、紀錄片開場",
+    "20_seconds": "類似微電影、完整品牌故事"
+  }
+}

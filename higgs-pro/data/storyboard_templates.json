@@ -1,0 +1,137 @@
+{
+  "version": "1.0.0",
+  "description": "分鏡模板資料庫 - 好萊塢得獎大片分鏡設計模板",
+  "storyboard_templates": {
+    "5_seconds": {
+      "1_frame": {
+        "name": "單一鏡頭故事",
+        "description": "一個鏡頭傳達完整故事",
+        "structure": ["建立 + 情感 + 動作"],
+        "camera_flow": ["Establishing Wide → Character Close Up → Action Peak"],
+        "example_prompts": {
+          "frame_1": "全景建立鏡頭，角色在環境中，光線變化暗示情緒轉變"
+        }
+      },
+      "2_frames": {
+        "name": "對比轉換",
+        "description": "兩個鏡頭呈現對比或轉換",
+        "structure": ["建立 → 轉換/結尾"],
+        "camera_flow": ["Wide Establishing → Close Up Emotion"],
+        "example_prompts": {
+          "frame_1": "建立鏡頭，環境與氛圍",
+          "frame_2": "角色特寫，情感轉變或動作"
+        }
+      }
+    },
+    "8_seconds": {
+      "2_frames": {
+        "name": "簡單敘事",
+        "description": "兩段式簡單故事",
+        "structure": ["建立 → 結尾"],
+        "camera_flow": ["Wide → Medium Close"],
+        "example_prompts": {
+          "frame_1": "環境建立，角色進場",
+          "frame_2": "角色動作，達成目標或轉折"
+        }
+      },
+      "3_frames": {
+        "name": "起承合結構",
+        "description": "三段式簡單故事",
+        "structure": ["建立 → 衝突 → 解決"],
+        "camera_flow": ["Wide → Medium → Close Up"],
+        "example_prompts": {
+          "frame_1": "開場建立，環境與角色",
+          "frame_2": "衝突或挑戰出現",
+          "frame_3": "解決或轉折結尾"
+        }
+      }
+    },
+    "10_seconds": {
+      "3_frames": {
+        "name": "快節奏故事弧",
+        "description": "三段完整故事節奏",
+        "structure": ["開場（Hook）→ 高潮（Climax）→ 結尾（Resolve）"],
+        "camera_flow": ["Crane Up/Dolly In → Fast Motion → Slow Pull Back"],
+        "tension_curve": [3, 8, 5],
+        "example_prompts": {
+          "frame_1": "開場鏡頭，吸引注意，環境建立",
+          "frame_2": "動作高潮，張力最高點",
+          "frame_3": "情感釋放，結尾定格"
+        }
+      },
+      "4_frames": {
+        "name": "標準故事結構",
+        "description": "四段完整敘事",
+        "structure": ["開場 → 發展 → 高潮 → 結尾"],
+        "camera_flow": ["Wide → Medium → Close Up → Wide"],
+        "tension_curve": [2, 5, 9, 4],
+        "example_prompts": {
+          "frame_1": "開場建立鏡頭，環境氛圍",
+          "frame_2": "角色發展，故事推進",
+          "frame_3": "高潮時刻，張力最高",
+          "frame_4": "結尾鏡頭，情感收尾"
+        }
+      }
+    },
+    "15_seconds": {
+      "4_frames": {
+        "name": "起承轉合",
+        "description": "完整故事結構",
+        "structure": ["建立 → 發展 → 高潮 → 解決"],
+        "camera_flow": ["Wide → Medium → Close Up → Wide"],
+        "tension_curve": [2, 4, 8, 5],
+        "example_prompts": {
+          "frame_1": "開場建立，環境角色",
+          "frame_2": "衝突產生，故事發展",
+          "frame_3": "高潮時刻，張力頂點",
+          "frame_4": "解決收尾，情感釋放"
+        }
+      },
+      "5_frames": {
+        "name": "完整故事節奏",
+        "description": "五段完整敘事",
+        "structure": ["開場 → 建立 → 衝突 → 高潮 → 結尾"],
+        "camera_flow": ["Wide → Medium → Medium Close → Close Up → Wide"],
+        "tension_curve": [1, 3, 6, 9, 4],
+        "example_prompts": {
+          "frame_1": "開場全景，環境建立",
+          "frame_2": "角色介紹，故事開始",
+          "frame_3": "衝突發生，張力上升",
+          "frame_4": "高潮頂點，最高張力",
+          "frame_5": "結尾收束，情感釋放"
+        }
+      }
+    },
+    "20_seconds": {
+      "5_frames": {
+        "name": "完整故事片",
+        "description": "完整微電影結構",
+        "structure": ["開場 → 建立 → 發展 → 高潮 → 結尾"],
+        "camera_flow": ["Wide → Medium → Close Up → Extreme Close → Wide"],
+        "tension_curve": [1, 3, 6, 10, 4],
+        "example_prompts": {
+          "frame_1": "開場全景，時間空間建立",
+          "frame_2": "角色登場，故事啟動",
+          "frame_3": "衝突發展，張力上升",
+          "frame_4": "高潮時刻，關鍵瞬間",
+          "frame_5": "結尾收尾，情感總結"
+        }
+      },
+      "6_frames": {
+        "name": "複雜敘事結構",
+        "description": "六段複雜故事",
+        "structure": ["開場 → 建立 → 衝突 → 發展 → 高潮 → 結尾"],
+        "camera_flow": ["Wide → Medium → Medium → Close Up → Extreme → Wide"],
+        "tension_curve": [1, 2, 5, 7, 10, 3],
+        "example_prompts": {
+          "frame_1": "開場全景，世界建立",
+          "frame_2": "角色建立，故事開始",
+          "frame_3": "衝突出現，挑戰顯現",
+          "frame_4": "發展推進，張力上升",
+          "frame_5": "高潮爆發，最高點",
+          "frame_6": "結局收尾，情感完成"
+        }
+      }
+    }
+  }
+}
