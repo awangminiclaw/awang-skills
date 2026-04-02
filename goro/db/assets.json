@@ -1,0 +1,35 @@
+{
+  "Project": "Universal Lifestyle Engine V7.2",
+  "Identity": "Image 1 Reference (nanobanana)",
+  "Global_Locales": {
+    "Tokyo": ["Neon Signs", "Convenience Stores", "Vending Machines", "Leek in Bag", "Subway Stairs", "Wet Asphalt", "Yamanote Line", "Umbrella Drips", "Morning Crows", "Ramen Steam"],
+    "London": ["Red Bus", "Brick Alleyways", "Trench Coats", "Antique Streetlamps", "Morning Fog"],
+    "NYC": ["Yellow Cabs", "Steam from Manholes", "Hot Dog Stands", "Skyline Bokeh", "Daily Newspapers"],
+    "Paris": ["Outdoor Cafes", "Cobblestones", "Eiffel Tower Spires", "Bakery Windows", "Bicycles"]
+  },
+  "Baseball_Assets": {
+    "Training": ["Practice Jersey", "Metal Spikes", "Batting Gloves", "Weighted Balls", "Training Net", "Pitching Machine"],
+    "Game_Day": ["JAPAN White Jersey", "Official Baseball", "Catcher's Mitt", "Home Plate", "Stadium Lights", "Cleat Marks"],
+    "Off_Day": ["Hoodie", "Sneakers", "Canvas Bag", "Smartphone", "Coffee Cup", "Backpack"]
+  },
+  "Atmospheric_FX": {
+    "Spatial_Dust": "Floating micro-motes, Tyndall particles, light-beam debris",
+    "Thermal_Realism": "Exhaled white vapor at low temps, window condensation",
+    "Optical": "Rim lighting, anamorphic bokeh, chromatic aberration, lens bloom",
+    "Post_Rain": "Wet reflections, puddle splashes, rising mist, droplet trails, diffuse skylight"
+  },
+  "Dynamic_Wardrobe": [
+    "Techwear Hoodie",
+    "Quilted Jacket",
+    "Trench Coat",
+    "Knit Sweater",
+    "Casual Shirt"
+  ],
+  "Weather_Vocabulary": {
+    "cold_breath": "visible white vapor from exhaled breath",
+    "wet_asphalt": "rain-soaked street with mirror reflections",
+    "puddle_splash": "water droplets scattering from footstep",
+    "morning_mist": "low-lying fog in cool humid conditions",
+    "overcast_diffuse": "soft, shadowless light from cloud cover"
+  }
+}

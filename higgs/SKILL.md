@@ -1,5 +1,6 @@
 ---
 name: higgs
+version: 1.0.0
 description: Generates Hollywood-spec image prompts for Higgsfield AI with a safety disclaimer.
 ---
 

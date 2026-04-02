@@ -1,0 +1,27 @@
+{
+  "Camera_Tech": [
+    "Arri Alexa 65 virtual cinema camera system",
+    "Panavision C Series Anamorphic Lenses, f/2.0",
+    "Technocrane 50 heavy spatial telescopic movement",
+    "Nanite-level geometry fidelity",
+    "Lumen-driven global illumination ray-tracing"
+  ],
+  "Physics_FX": [
+    "Strand-based grooming hair physics (Hair Simulation)",
+    "Vellus hair visible under backlight (Dermatological Reality)",
+    "MetaHuman micro-pore sweat and sebum secretion",
+    "Soft-body cloth dynamics and wrinkle simulation",
+    "Volumetric Tyndall effect with dancing dust particles"
+  ],
+  "Audio_Design": [
+    "128-channel Dolby Atmos surround sound mix",
+    "Sub-woofer LFE channel deep cinematic hum",
+    "Binaural spatial audio for extreme immersion",
+    "Foley-grade physical contact sounds (Texture-accurate)"
+  ],
+  "Dialogue_Styles": [
+    "Spoken in flawless native American English accent",
+    "Heavy emotional breathing and performance-driven pace",
+    "Cinematic silence with focus on foley layers"
+  ]
+}

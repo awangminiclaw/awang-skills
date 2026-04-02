@@ -1,4 +1,6 @@
 ---
+name: cinematic_director
+version: 9.1
 description: Activates the "Cinematic Director System" (電影導演系統), a 4-system engine for generating cinematic video plans (Idea, Style, Storyboard, Prompting).
 ---
 

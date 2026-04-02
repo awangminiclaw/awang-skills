@@ -1,0 +1,113 @@
+{
+  "character_card": {
+    "name": "藍底封面女孩",
+    "slug": "nanobanana pro",
+    "features": {
+      "face_shape": "卵圓形臉 (Oval face)",
+      "eyes": "自然比例杏眼 (Natural almond eyes), 清晰攝影棚 catchlight",
+      "skin": "奶油肌 (Creamy skin), 水潤質感 (Dewy texture), 保留毛孔與真實高光",
+      "style": "anime-real hybrid, realistic beauty portrait with illustration softness",
+      "ambiance": "商業美妝棚拍, 偶像寫真, 雜誌封面感, 電影氛圍"
+    }
+  },
+  "menus": {
+    "ratios": [
+      "1. 16:9",
+      "2. 9:16",
+      "3. 21:9",
+      "4. 1:1",
+      "5. 2:3",
+      "6. 3:2"
+    ],
+    "foregrounds": [
+      "01. GPT 自由發揮",
+      "02. 光斑 (Lens flares)",
+      "03. 花瓣 (Petals)",
+      "04. 輕霧 (Light mist)",
+      "05. 紗幕 (Gauze curtain)",
+      "06. 水滴 (Water droplets)",
+      "07. 飄帶 (Streamers)",
+      "08. 泡泡 (Bubbles)",
+      "09. 羽毛 (Feathers)",
+      "10. 塵埃 (Dust motes)",
+      "11. 幾何光影 (Geometric shadows)",
+      "12. 攝影機眩光 (Camera glare)",
+      "13. 飛舞的紙片 (Falling paper)",
+      "14. 透明蕾絲 (Transparent lace)",
+      "15. 植物葉片 (Plant leaves)"
+    ],
+    "middlegrounds": [
+      "01. GPT 自由發揮",
+      "02. 柔焦光暈 (Soft bokeh)",
+      "03. 流動布料 (Flowing fabric)",
+      "04. 漂浮粒子 (Floating particles)",
+      "05. 水晶折射 (Crystal refraction)",
+      "06. 光束穿透 (God rays)",
+      "07. 煙霧繚繞 (Swirling smoke)",
+      "08. 魔法星塵 (Magic stardust)",
+      "09. 動態模糊 (Motion blur)",
+      "10. 抽象線條 (Abstract lines)",
+      "11. 玻璃反光 (Glass reflections)",
+      "12. 數位網格 (Digital grid)",
+      "13. 漂浮的水滴 (Floating water drops)",
+      "14. 飛散的羽毛 (Scattered feathers)",
+      "15. 破碎的鏡面 (Broken mirror pieces)"
+    ],
+    "backgrounds": [
+      "01. GPT 自由發揮",
+      "02. 城市夜景 (City nightscape)",
+      "03. 星空 (Starry sky)",
+      "04. 純色漸層 (Plain gradient)",
+      "05. 漫畫線條背景 (Manga speed lines)",
+      "06. 宮廷牆面 (Palace wall)",
+      "07. 夢幻雲海 (Ethereal sea of clouds)",
+      "08. 森林秘境 (Hidden forest)",
+      "09. 未來科技城 (Futuristic tech city)",
+      "10. 復古圖騰 (Retro patterns)",
+      "11. 幾何色塊 (Geometric color blocks)",
+      "12. 油畫質感 (Oil painting texture)",
+      "13. 極簡室內 (Minimalist interior)",
+      "14. 燦爛煙火 (Brilliant fireworks)",
+      "15. 虛擬數位空間 (Virtual digital space)"
+    ],
+    "outfits": [
+      "01. [玩水/海灘] 時尚繫帶設計師比基尼 (Designer String Bikini, detailed textures)",
+      "02. [玩水/海灘] 高腰復古設計連體泳衣 (Vintage High-waisted Monokini, elegant curves)",
+      "03. [玩水/海灘] 機能性拉鍊運動風衝浪服 (Sporty Zip-up Rash Guard, athletic look)",
+      "04. [偶像/舞台] 鑲鑽蕾絲層次感打歌服 (Jeweled Lace Layered Stage Outfit, glittering)",
+      "05. [偶像/舞台] 輕飄氣球袖夢幻絲綢禮服 (Dreamy Puffy-sleeve Silk Gown, ethereal)",
+      "06. [偶像/舞台] 漆皮金屬感電子歌姬套裝 (Metallic Cyberpunk Diva Suit, neon accents)",
+      "07. [日常/時尚] 寬鬆落肩針織衫配緊身寬褲 (Oversized Knit Sweater & Slim Trousers)",
+      "08. [日常/時尚] 都市機能防風大衣與工裝褲 (Urban Techwear Windbreaker & Cargo Pants)",
+      "09. [日常/時尚] 法式碎花方領泡泡袖長裙 (French Floral Square-neck Puff Sleeve Dress)",
+      "10. [學院/制服] 經典英倫風層次感西裝制服 (Classic British Layered School Uniform)",
+      "11. [學院/制服] 日系水手服搭配刺繡開襟衫 (Japanese Sailor Suit with Embroidered Cardigan)",
+      "12. [奇幻/精緻] 半透明薄紗精靈祭典服飾 (Translucent Gauze Elf Ritual Attire)",
+      "13. [奇幻/精緻] 輕金屬雕花魔導士長袍 (Lightweight Filigree Archmage Robe)",
+      "14. [正式/高階] 露肩絲絨質感晚禮服 (Off-shoulder Velvet Evening Gown, luxury)",
+      "15. [正式/高階] 精確剪裁白色商業西裝套裝 (Precision-cut White Business Suit)"
+    ]
+  },
+  "subjects": [
+    "01. 旗艦級極致精緻女孩，開懷大笑，拿著鮮黃色的鮮豔雨傘",
+    "02. 舞台上的偶像，眨眼微笑，搭配漫天飛舞的彩帶",
+    "03. 窩在咖啡廳的女孩，捧著冒煙的可可，柔和的夕陽光",
+    "04. 在向日葵花海中奔跑的少女，開心地歡笑，裙擺飛揚",
+    "05. 坐在桌前的工程師，被發光的螢幕環繞，自信擊掌",
+    "06. 大笑的烘焙師，鼻頭沾著麵粉，捧著剛出爐的麵包",
+    "07. 在東京霓虹街頭的旅人，舉起和平手勢，穿著大寬鬆帽修",
+    "08. 對著畫布微笑的女孩，身上處處彩繪，穿著藝術圍裙",
+    "09. 在公園與黃金獵犬嬉戲的女孩，背後帶著夕陽光暈",
+    "10. 旋轉中的舞者，表情燦爛，裙襬呈現動態流動感",
+    "11. 圖書館裡從書後探出頭微笑的女孩，充滿青春氣息",
+    "12. 衝過終點線的運動員，高舉雙手，滿臉汗水與喜悅",
+    "13. 在櫻花樹下微笑的少女，花瓣落在髮梢，粉色氛圍",
+    "14. 音樂節中的狂熱女孩，戴著發光飾品，忘情歡呼",
+    "15. 雨天窗邊的作家，嘴角帶著淺笑，膝上躺著貓咪",
+    "16. 圍著圍巾捕捉雪花的女孩，臉頰紅潤，氣息清晰可見",
+    "17. 夕陽海灘上的少女，潑灑著海水，無憂無慮地大笑",
+    "18. 穿著和服參加祭典的女孩，拿著紙扇，背景綴滿燈籠",
+    "19. 星空露營地烤棉花糖的少女，火光照映出溫暖笑容",
+    "20. 騎著自行車的快活女孩，海風吹拂髮絲，背後是城市線條"
+  ]
+}
