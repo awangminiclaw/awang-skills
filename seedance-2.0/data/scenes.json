@@ -1,0 +1,141 @@
+{
+  "version": "1.0.0",
+  "description": "場景變化資料庫 - 視覺敘事場景類型",
+  "scene_types": [
+    {
+      "id": "establishing_wide",
+      "name_zh": "建立鏡頭",
+      "name_en": "Establishing Shot",
+      "description": "寬闊視野，建立環境與氛圍",
+      "visual_elements": ["全景", "環境", "氛圍", "光影"],
+      "camera_preference": ["Wide", "Drone Flyover", "Epic Drone Reveal"],
+      "tension_level": "1-3"
+    },
+    {
+      "id": "character_introduction",
+      "name_zh": "角色登場",
+      "name_en": "Character Introduction",
+      "description": "角色首次出現，建立視覺印象",
+      "visual_elements": ["角色特寫", "姿態", "服裝", "眼神"],
+      "camera_preference": ["Medium", "Dolly In", "Tilt Up"],
+      "tension_level": "2-4"
+    },
+    {
+      "id": "action_sequence",
+      "name_zh": "動作場景",
+      "name_en": "Action Sequence",
+      "description": "快速動作，動態表現",
+      "visual_elements": ["動態模糊", "速度感", "衝擊力"],
+      "camera_preference": ["Handheld", "Whip Pan", "Fast Dolly In"],
+      "tension_level": "6-9"
+    },
+    {
+      "id": "emotional_closeup",
+      "name_zh": "情感特寫",
+      "name_en": "Emotional Close-up",
+      "description": "角色情感表達，細節捕捉",
+      "visual_elements": ["眼神", "表情", "微動作"],
+      "camera_preference": ["Close Up", "Rack Focus", "Slow Dolly In"],
+      "tension_level": "4-7"
+    },
+    {
+      "id": "conflict_reveal",
+      "name_zh": "衝突揭示",
+      "name_en": "Conflict Reveal",
+      "description": "揭示故事衝突點",
+      "visual_elements": ["對比", "張力", "衝突元素"],
+      "camera_preference": ["Dutch Angle", "Crash Zoom", "Tilt"],
+      "tension_level": "5-8"
+    },
+    {
+      "id": "atmosphere_building",
+      "name_zh": "氛圍建立",
+      "name_en": "Atmosphere Building",
+      "description": "累積氛圍與情緒",
+      "visual_elements": ["環境", "天氣", "音效暗示"],
+      "camera_preference": ["Slow Pan", "Orbit", "Crane Up"],
+      "tension_level": "3-5"
+    },
+    {
+      "id": "climax_moment",
+      "name_zh": "高潮時刻",
+      "name_en": "Climax Moment",
+      "description": "故事最高點",
+      "visual_elements": ["強烈對比", "爆發力", "情緒高峰"],
+      "camera_preference": ["Crash Zoom", "Whip Pan", "FPV Drone"],
+      "tension_level": "8-10"
+    },
+    {
+      "id": "resolution_peace",
+      "name_zh": "解決平靜",
+      "name_en": "Resolution / Peace",
+      "description": "衝突後的平靜",
+      "visual_elements": ["柔和光線", "寧靜", "釋放"],
+      "camera_preference": ["Slow Dolly Out", "Crane Down", "Smooth Zoom Out"],
+      "tension_level": "1-3"
+    },
+    {
+      "id": "chase_sequence",
+      "name_zh": "追逐場景",
+      "name_en": "Chase Sequence",
+      "description": "追逐或逃離",
+      "visual_elements": ["速度", "動態", "環境互動"],
+      "camera_preference": ["Tracking Shot", "FPV Drone", "Handheld"],
+      "tension_level": "7-9"
+    },
+    {
+      "id": "dialogue_scene",
+      "name_zh": "對話場景",
+      "name_en": "Dialogue Scene",
+      "description": "角色互動對話",
+      "visual_elements": ["眼神", "肢體語言", "空間關係"],
+      "camera_preference": ["Over the Shoulder", "Two Shot", "Reaction Shot"],
+      "tension_level": "3-6"
+    },
+    {
+      "id": "environment_reveal",
+      "name_zh": "環境揭示",
+      "name_en": "Environment Reveal",
+      "description": "揭示新地點或環境",
+      "visual_elements": ["全景", "環境細節", "探索感"],
+      "camera_preference": ["Crane Up", "Drone Flyover", "Pull Back"],
+      "tension_level": "2-4"
+    },
+    {
+      "id": "transformation_scene",
+      "name_zh": "轉變場景",
+      "name_en": "Transformation Scene",
+      "description": "角色或環境的轉變",
+      "visual_elements": ["前後對比", "變化過程", "情緒轉換"],
+      "camera_preference": ["Morph Cut", "Time Lapse", "Cross Dissolve"],
+      "tension_level": "4-7"
+    },
+    {
+      "id": "memory_flashback",
+      "name_zh": "回憶閃回",
+      "name_en": "Memory Flashback",
+      "description": "過去記憶的呈現",
+      "visual_elements": ["復古色調", "模糊邊緣", "夢幻感"],
+      "camera_preference": ["Soft Focus", "Vignette", "Slow Motion"],
+      "tension_level": "2-5"
+    },
+    {
+      "id": "danger_threat",
+      "name_zh": "危險威脅",
+      "name_en": "Danger / Threat",
+      "description": "威脅或危險的呈現",
+      "visual_elements": ["陰影", "不祥", "緊張感"],
+      "camera_preference": ["Low Angle", "Dutch Angle", "Slow Push"],
+      "tension_level": "6-8"
+    },
+    {
+      "id": "victory_celebration",
+      "name_zh": "勝利慶祝",
+      "name_en": "Victory Celebration",
+      "description": "成功或勝利的慶祝",
+      "visual_elements": ["喜悅", "釋放", "高能量"],
+      "camera_preference": ["Crane Up", "Wide Shot", "Epic Reveal"],
+      "tension_level": "5-7"
+    }
+  ]
+}

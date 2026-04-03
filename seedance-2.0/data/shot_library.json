@@ -1,0 +1,228 @@
+{
+  "version": "1.0.0",
+  "description": "分鏡類型資料庫 - Seedance 2.0 分鏡編號系統",
+  "storyboard_9_elements": [
+    "分鏡編號",
+    "劇情",
+    "角色",
+    "對白互動動作",
+    "表演",
+    "燈光",
+    "電影鏡頭與專用器材",
+    "秒數",
+    "色彩分級"
+  ],
+  "shot_types": [
+    {
+      "id": "establishing_wide",
+      "name_chinese": "建立鏡頭（大遠景）",
+      "name_english": "Establishing Shot (Extreme Long Shot)",
+      "abbreviation": "ELS",
+      "分鏡編號_format": "鏡頭{N}",
+      "timecode_template": "[00:XX-00:YY]",
+      "full_header_template": "【分鏡{N}】[00:XX-00:YY]",
+      "function_chinese": "建立場景規模，呈現環境全貌",
+      "function_english": "Establishes scene scale, reveals environment",
+      "camera_suggestion": "無人機航拍或搖臂上升，縱深構圖",
+      "audio_suggestion": "Dolby Atmos 360度環境音，主題音樂漸入",
+      "best_for": ["開場建立", "場景揭示", "氛圍營造"],
+      "storyboard_tips": "前景、中景、背景皆需有敘事元素"
+    },
+    {
+      "id": "character_intro",
+      "name_chinese": "角色登場（中景至近景）",
+      "name_english": "Character Introduction (Medium to Close-Up)",
+      "abbreviation": "MS → CU",
+      "分鏡編號_format": "鏡頭{N}",
+      "timecode_template": "[00:XX-00:YY]",
+      "full_header_template": "【分鏡{N}】[00:XX-00:YY]",
+      "function_chinese": "介紹角色，展示服裝與道具",
+      "function_english": "Introduces character, shows costume and props",
+      "camera_suggestion": "推軌進入（Dolly In）或焦點轉移（Rack Focus）",
+      "audio_suggestion": "角色主題音樂，環境音漸弱",
+      "best_for": ["首次出場", "角色揭示", "身份確立"],
+      "storyboard_tips": "必須描述服裝設計與道具配件"
+    },
+    {
+      "id": "close_up_emotional",
+      "name_chinese": "特寫鏡頭（情感）",
+      "name_english": "Close-Up (Emotional)",
+      "abbreviation": "CU",
+      "分鏡編號_format": "鏡頭{N}",
+      "timecode_template": "[00:XX-00:YY]",
+      "full_header_template": "【分鏡{N}】[00:XX-00:YY]",
+      "function_chinese": "聚焦情感，面部表情",
+      "function_english": "Focus on emotion, facial expression",
+      "camera_suggestion": "淺景深（Shallow Depth），焦點在眼部",
+      "audio_suggestion": "環境音降低，情感音樂主導",
+      "best_for": ["情感高潮", "關鍵對白", "反應鏡頭"],
+      "storyboard_tips": "必須描述面部表情細節（眼神、眉毛、嘴角）"
+    },
+    {
+      "id": "extreme_close_up_eye",
+      "name_chinese": "大特寫（眼神表演）",
+      "name_english": "Extreme Close-Up (Eye Performance)",
+      "abbreviation": "ECU",
+      "分鏡編號_format": "鏡頭{N}",
+      "timecode_template": "[00:XX-00:YY]",
+      "full_header_template": "【分鏡{N}】[00:XX-00:YY]",
+      "function_chinese": "極致聚焦眼神，揭示內心世界",
+      "function_english": "Extreme focus on eyes, reveals inner world",
+      "camera_suggestion": "微距鏡頭（Macro Lens），大光圈淺景深",
+      "audio_suggestion": "心跳聲（低頻），音樂驟停或極簡",
+      "best_for": ["關鍵揭露", "心理狀態", "隱藏情感"],
+      "storyboard_tips": "必須描述：凝視方向、眼神光、瞳孔狀態、眉毛配合",
+      "eye_performance_keywords": [
+        "凝視- 專注",
+        "閃爍- 不安",
+        "下垂- 悲傷",
+        "上揚- 希望",
+        "交會- 親密",
+        "迴避-逃避"
+      ]
+    },
+    {
+      "id": "dialogue_interaction",
+      "name_chinese": "對話場面調度",
+      "name_english": "Dialogue Blocking",
+      "abbreviation": "OTS / Two-Shot",
+      "分鏡編號_format": "鏡頭{N}",
+      "timecode_template": "[00:XX-00:YY]",
+      "full_header_template": "【分鏡{N}】[00:XX-00:YY]",
+      "function_chinese": "兩人以上角色對話與互動",
+      "function_english": "Two or more characters dialogue and interaction",
+      "camera_suggestion": "過肩鏡頭（OTS）切換，焦點在說話者",
+      "audio_suggestion": "對白清晰（前置中央），背景音樂低沉",
+      "best_for": ["對話場面", "談判", "衝突討論"],
+      "storyboard_tips": "描述雙方服裝、道具、動作、反應"
+    },
+    {
+      "id": "action_sequence",
+      "name_chinese": "動作場景",
+      "name_english": "Action Sequence",
+      "abbreviation": "Handheld / Tracking",
+      "分鏡編號_format": "鏡頭{N}",
+      "timecode_template": "[00:XX-00:YY]",
+      "full_header_template": "【分鏡{N}】[00:XX-00:YY]",
+      "function_chinese": "動態動作，高能量場面",
+      "function_english": "Dynamic movement, high energy sequence",
+      "camera_suggestion": "穩定器跟拍或手持攝影，快速剪輯",
+      "audio_suggestion": "Dolby Atmos全方位特效音（撞擊、爆炸、腳步），高能量音樂",
+      "best_for": ["戰鬥場面", "追逐", "動作戲"],
+      "storyboard_tips": "描述角色的動態連戲，道具使用"
+    },
+    {
+      "id": "reaction_shot",
+      "name_chinese": "反應鏡頭",
+      "name_english": "Reaction Shot",
+      "abbreviation": "CU / MCU",
+      "分鏡編號_format": "鏡頭{N}",
+      "timecode_template": "[00:XX-00:YY]",
+      "full_header_template": "【分鏡{N}》[00:XX-00:YY]",
+      "function_chinese": "捕捉角色對事件的反應",
+      "function_english": "Captures character reaction to event",
+      "camera_suggestion": "中近景（MCU）或特寫（CU），捕捉眼神變化",
+      "audio_suggestion": "對白暫停，情感音樂或靜音",
+      "best_for": ["震驚反應", "情感表达", "無言叙事"],
+      "storyboard_tips": "重點在眼神與微表情變化"
+    },
+    {
+      "id": "climax_moment",
+      "name_chinese": "高潮時刻",
+      "name_english": "Climax Moment",
+      "abbreviation": "Dynamic Framing",
+      "分鏡編號_format": "鏡頭{N}",
+      "timecode_template": "[00:XX-00:YY]",
+      "full_header_template": "【分鏡{N}】[00:XX-00:YY]",
+      "function_chinese": "張力高峰，重大揭露",
+      "function_english": "Peak tension, major reveal",
+      "camera_suggestion": "搖臂上升或快速變焦或搖攝",
+      "audio_suggestion": "Dolby Atmos全频段高潮，管弦樂漸強，衝擊特效音",
+      "best_for": ["故事高峰", "揭露真相", "戲劇轉折"],
+      "storyboard_tips": "描述最強烈的情感與動作"
+    },
+    {
+      "id": "resolution_peace",
+      "name_chinese": "結局平靜",
+      "name_english": "Resolution/Peace",
+      "abbreviation": "Pull Out / Wide",
+      "分鏡編號_format": "鏡頭{N}",
+      "timecode_template": "[00:XX-00:YY]",
+      "full_header_template": "【分鏡{N}】[00:XX-00:YY]",
+      "function_chinese": "情感釋放，故事結尾",
+      "function_english": "Emotional release, story ending",
+      "camera_suggestion": "推軌拉出或搖臂下降，從特寫拉至遠景",
+      "audio_suggestion": "音樂漸弱，環境音回歸",
+      "best_for": ["結局", "解決", "平靜"],
+      "storyboard_tips": "從角色特寫回到環境遠景"
+    }
+  ],
+  "shot_templates": {
+    "4_seconds": {
+      "description_chinese": "單一鏡頭，瞬間衝擊",
+      "description_english": "Single shot, instant impact",
+      "templates": [
+        {
+          "name": "Single Impact",
+          "shots": ["鏡頭1"],
+          "timecodes": ["[00:00-00:04]"],
+          "structure": ["衝擊瞬間"]
+        }
+      ]
+    },
+    "8_seconds": {
+      "description_chinese": "2-3 分鏡，簡單敘事",
+      "description_english": "2-3 shots, simple narrative",
+      "templates": [
+        {
+          "name": "Setup → Payoff",
+          "shots": ["鏡頭1", "鏡頭2"],
+          "timecodes": ["[00:00-00:04]", "[00:04-00:08]"],
+          "structure": ["建立", "衝擊"]
+        },
+        {
+          "name": "A → B → C",
+          "shots": ["鏡頭1", "鏡頭2", "鏡頭3"],
+          "timecodes": ["[00:00-00:02.7]", "[00:02.7-00:05.4]", "[00:05.4-00:08]"],
+          "structure": ["建立", "發展", "結尾"]
+        }
+      ]
+    },
+    "12_seconds": {
+      "description_chinese": "3-4 分鏡，完整故事弧",
+      "description_english": "3-4 shots, complete story arc",
+      "templates": [
+        {
+          "name": "Classic Arc",
+          "shots": ["鏡頭1", "鏡頭2", "鏡頭3"],
+          "timecodes": ["[00:00-00:04]", "[00:04-00:08]", "[00:08-00:12]"],
+          "structure": ["建立", "衝突", "解決"]
+        },
+        {
+          "name": "Four-Act",
+          "shots": ["鏡頭1", "鏡頭2", "鏡頭3", "鏡頭4"],
+          "timecodes": ["[00:00-00:03]", "[00:03-00:06]", "[00:06-00:09]", "[00:09-00:12]"],
+          "structure": ["Hook", "Build", "Climax", "Resolve"]
+        }
+      ]
+    },
+    "15_seconds": {
+      "description_chinese": "4-5 分鏡，電影級敘事",
+      "description_english": "4-5 shots, cinematic storytelling",
+      "templates": [
+        {
+          "name": "Film Structure",
+          "shots": ["鏡頭1", "鏡頭2", "鏡頭3", "鏡頭4"],
+          "timecodes": ["[00:00-00:04]", "[00:04-00:08]", "[00:08-00:11]", "[00:11-00:15]"],
+          "structure": ["Act 1", "Act 2", "Act 3", "Act 4"]
+        },
+        {
+          "name": "Five-Act",
+          "shots": ["鏡頭1", "鏡頭2", "鏡頭3", "鏡頭4", "鏡頭5"],
+          "timecodes": ["[00:00-00:03]", "[00:03-00:06]", "[00:06-00:09]", "[00:09-00:12]", "[00:12-00:15]"],
+          "structure": ["Exposition", "Rising", "Climax", "Falling", "Resolution"]
+        }
+      ]
+    }
+  }
+}

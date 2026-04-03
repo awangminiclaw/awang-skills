@@ -1,0 +1,312 @@
+{
+  "version": "1.0.0",
+  "description": "角色互動模板 - 專業電影術語版（支援最多 5 角色 + 場景）",
+  "character_limit": {
+    "max_images": 9,
+    "max_characters": 5,
+    "max_scenarios": 4,
+    "note": "總計最多 9 張參考圖，可分配給角色（最多 5 個）和場景"
+  },
+  "numbering_system": {
+    "characters": {
+      "format": "{性別/類型}角色{編號}",
+      "examples": [
+        "男角色1 - 第一位男性主角",
+        "女角色2 - 第二位女性主角",
+        "怪物角色3 - 第三位怪物角色",
+        "外星人角色4 - 第四位外星人角色",
+        "機械人角色5 - 第五位機械人角色"
+      ],
+      "order": "根據參考圖片從左至右順序排列"
+    },
+    "scenarios": {
+      "format": "{場景名稱}場景{編號}",
+      "examples": [
+        "港口場景5 - 第五張參考圖為港口場景",
+        "街頭場景6 - 第六張參考圖為街頭場景",
+        "太空場景7 - 第七張參考圖為太空場景",
+        "森林場景8 - 第八張參考圖為森林場景"
+      ],
+      "note": "場景編號接續角色編號之後"
+    }
+  },
+  "character_card_requirements": {
+    "note": "所有角色提示詞必須包含以下電影專業元素",
+    "required_elements": [
+      "服裝設計 - 造型指導",
+      "道具配件 - 道具設計",
+      "場面調度 - 角色走位與動作",
+      "物理狀態 - 動態連戲",
+      "場景互動 - 空間關係"
+    ],
+    "cinematography_terms": {
+      "blocking": "場面調度 - 角色在場景中的移動與定位",
+      "continuity": "連戲 - 動作與狀態的一致性",
+      "mise_en_scene": "場面調度 - 畫面中所有元素的安排",
+      "blocking_rehearsal": "走位排練 - 角色動作預演",
+      "action": "動作 - 角色的肢體表現",
+      "reaction": "反應 - 角色對事件的回應"
+    },
+    "example_good": "男角色1（@image1），著科幻太空服，手持維修工具，懸浮於太空艙內，場面調度採取縱深構圖，表情專注而緊繃，眼神凝視儀表板",
+    "example_bad": "男角色1在太空"
+  },
+  "physical_reality_requirements": {
+    "note": "所有提示詞必須符合物理世界法則，遵循電影製作規範",
+    "requirements": [
+      "所有元素皆需動態表現 - 靜態鏡頭亦需動態元素",
+      "多層次場面調度 - 前景、中景、遠景皆有敘事功能",
+      "視覺張力構建 - 強烈對比、動態構圖、戲劇張力",
+      "細緻面部表演 - 微表情與眼神光"
+    ]
+  },
+  "shot_scales": {
+    "extreme_long_shot": {
+      "chinese": "大遠景",
+      "english": "Extreme Long Shot (ELS)",
+      "description": "角色在環境中極小，強調場景規模",
+      "use_for": "建立鏡頭，場景揭示"
+    },
+    "long_shot": {
+      "chinese": "遠景",
+      "english": "Long Shot (LS)",
+      "description": "全身可見，包含環境",
+      "use_for": "角色入場，場景確立"
+    },
+    "full_shot": {
+      "chinese": "全景",
+      "english": "Full Shot (FS)",
+      "description": "全身可見，環境較少",
+      "use_for": "動作場面，舞蹈"
+    },
+    "medium_shot": {
+      "chinese": "中景",
+      "english": "Medium Shot (MS)",
+      "description": "腰部以上可見",
+      "use_for": "對話場面，互動"
+    },
+    "medium_close_up": {
+      "chinese": "中近景",
+      "english": "Medium Close-Up (MCU)",
+      "description": "胸部以上可見",
+      "use_for": "情感表達，重要對話"
+    },
+    "close_up": {
+      "chinese": "近景/特寫",
+      "english": "Close-Up (CU)",
+      "description": "臉部可見，肩膀邊緣",
+      "use_for": "情感高潮，關鍵時刻"
+    },
+    "extreme_close_up": {
+      "chinese": "大特寫",
+      "english": "Extreme Close-Up (ECU)",
+      "description": "局部放大，如眼睛、嘴唇",
+      "use_for": "極致情感，關鍵物件"
+    }
+  },
+  "camera_terminology": {
+    "camera_movements": {
+      "dolly_in": "推軌進入 - 攝影機向前推進",
+      "dolly_out": "推軌退出 - 攝影機向後拉出",
+      "tracking_shot": "跟拍鏡頭 - 攝影機跟隨主體移動",
+      "crane_shot": "搖臂鏡頭 - 攝影機垂直運動",
+      "steadicam_shot": "穩定器鏡頭 - 流暢手持運動",
+      "handheld_shot": "手持攝影 - 不穩定晃動效果",
+      "drone_shot": "無人機航拍 - 空中視角",
+      "pan": "搖攝 - 攝影機水平轉動",
+      "tilt": "傾斜 - 攝影機垂直轉動",
+      "zoom": "變焦 - 鏡頭焦距改變",
+      "rack_focus": "焦點轉移 - 焦點從一物件轉至另一物件"
+    },
+    "camera_angles": {
+      "eye_level": "平視角度 - 與角色視線同高",
+      "high_angle": "俯拍角度 - 攝影機高於主體",
+      "low_angle": "仰拍角度 - 攝影機低於主體",
+      "dutch_angle": "傾斜角度 - 畫面傾斜產生不安感",
+      "birds_eye": "鳥瞰角度 - 正上方俯視",
+      "worms_eye": "蟲視角度 - 極低仰拍"
+    },
+    "focus_depth": {
+      "shallow_depth": "淺景深 - 主體清晰，背景模糊",
+      "deep_focus": "深焦 - 前景至遠景皆清晰",
+      "rack_focus": "焦點轉移 - 引導觀眾視線",
+      "pull_focus": "拉焦 - 焦點從遠到近"
+    }
+  },
+  "lighting_terminology": {
+    "three_point_lighting": {
+      "chinese": "三點打光",
+      "english": "Three-Point Lighting",
+      "components": {
+        "key_light": "關鍵光 - 主要光源",
+        "fill_light": "補光 - 減少陰影",
+        "back_light": "背光/輪廓光 - 分離主體與背景"
+      }
+    },
+    "high_key_lighting": {
+      "chinese": "高調打光",
+      "english": "High-Key Lighting",
+      "description": "明亮、低對比、陰影少",
+      "use_for": "喜劇、浪漫、商業"
+    },
+    "low_key_lighting": {
+      "chinese": "低調打光",
+      "english": "Low-Key Lighting",
+      "description": "黑暗、高對比、陰影多",
+      "use_for": "驚悚、黑色電影、戲劇"
+    },
+    "practical_lighting": {
+      "chinese": "實景光源",
+      "english": "Practical Lighting",
+      "description": "場景中的自然光源（燈、蠟燭、螢幕）",
+      "use_for": "真實感、氛圍"
+    },
+    "motivated_lighting": {
+      "chinese": "動機光源",
+      "english": "Motivated Lighting",
+      "description": "基於場景中光源的打光",
+      "use_for": "連戲、真實感"
+    }
+  },
+  "interaction_patterns": [
+    {
+      "id": "single_character",
+      "name_chinese": "單一角色",
+      "name_english": "Single Character",
+      "description": "單一角色在場景中的場面調度",
+      "template": "【角色】{性別/類型}角色{N}（@image{N}），{服裝設計}，{道具}，{場面調度}，{情緒狀態}",
+      "example": "【角色】男角色1（@image1），著破舊太空服，手持維修工具，場面調度採取縱深構圖，懸浮於太空艙內，表情專注而緊繃，眼神凝視儀表板",
+      "cinematography_notes": "建議採用中景至近景推軌進入，焦點從太空服細節拉至面部",
+      "audio_template": "環境音 + 主題音樂漸入",
+      "best_for": ["角色登場", "獨白", "情感特寫"]
+    },
+    {
+      "id": "dual_interaction",
+      "name_chinese": "雙人場面調度",
+      "name_english": "Two-Character Blocking",
+      "description": "兩人角色互動的場面調度",
+      "template": "【角色】{性別/類型}角色{N1}（@image{N1}），{服裝設計}，{道具}，{動作}\n         {性別/類型}角色{N2}（@image{N2}），{服裝設計}，{道具}，{反應}",
+      "example": "【角色】男角色1（@image1），著深藍色西裝，手持文件夾，站立於辦公桌前，身體前傾，表情嚴肅\n         女角色2（@image2），著正式套裝，配戴眼鏡，坐於辦公椅，翻閱文件，眉頭微皺，眼神掃視文字",
+      "cinematography_notes": "建議採用過肩鏡頭切換，焦點在說話者，淺景深讓另一人模糊作為前景框架",
+      "audio_template": "對白清晰 + 背景音樂低沈",
+      "best_for": ["對話場景", "談判", "衝突討論"]
+    },
+    {
+      "id": "group_action",
+      "name_chinese": "群體場面調度",
+      "name_english": "Ensemble Blocking",
+      "description": "多人同時動作的場面調度",
+      "template": "【角色】{性別/類型}角色{N}（主角）（@image{N}），{服裝設計}，{道具}，{主要動作}\n         {性別/類型}角色{N2}、{性別/類型}角色{N3}（背景角色）（@image{N2}, @image{N3}）：{背景動作}",
+      "example": "【角色】男角色1（隊長）（@image1），著軍用戰術背心，手持步槍，指揮行動，表情堅定，眼神銳利，站位於前景中央\n         男角色2、女角色3（隊員）（@image2, @image3），著同款戰術裝備，快速移動於中景廢墟，執行搜索任務",
+      "cinematography_notes": "建議採用深焦攝影，讓前景的主角與中景的隊員皆清晰可見，增加景深層次",
+      "audio_template": "環境音 + 動作音效 + 緊張音樂",
+      "best_for": ["動作場景", "團隊合作", "群體活動"]
+    },
+    {
+      "id": "monster_character",
+      "name_chinese": "怪物角色",
+      "name_english": "Monster Character",
+      "description": "非人類角色的場面調度",
+      "template": "【角色】怪物角色{N}（@image{N}），{外觀設計}，{動作}，{環境互動}，{威脅感}",
+      "example": "【角色】怪物角色3（@image3），身高三米，全身覆蓋黑色鱗片，雙眼散發紅光，從陰影中緩緩走出，低角度仰拍，利爪在地面上留下抓痕，產生壓迫感",
+      "cinematography_notes": "建議採用低角度仰拍強調壓迫感，配合低調打光製造神秘威脅",
+      "audio_template": "怪物嘶吼 + 沉重腳步聲 + 緊張音樂",
+      "best_for": ["恐怖場景", "怪物電影", "奇幻冒險"]
+    },
+    {
+      "id": "alien_character",
+      "name_chinese": "外星人角色",
+      "name_english": "Alien Character",
+      "description": "外星生物角色的場面調度",
+      "template": "【角色】外星人角色{N}（@image{N}），{外觀設計}，{科技道具}，{動作}，{懸浮狀態}",
+      "example": "【角色】外星人角色4（@image4），頭部呈橢圓形，皮膚呈銀色金屬光澤，著發光戰甲，手持能量武器，懸浮於半空，眼睛掃描周圍環境，藍色冷光映照面部",
+      "cinematography_notes": "建議採用質感豐富的科幻打光（藍冷色調），配合背光產生輪廓光",
+      "audio_template": "電子音效 + 科技環境音 + 神秘音樂",
+      "best_for": ["科幻場景", "外星接觸", "太空探索"]
+    }
+  ],
+  "mise_en_scene_elements": {
+    "foreground": {
+      "chinese": "前景",
+      "english": "Foreground",
+      "elements": ["主要角色", "關鍵道具", "動作焦點"],
+      "focus": "深焦或淺景深可選",
+      "narrative_function": "引導觀眾視線，建立當下焦點"
+    },
+    "midground": {
+      "chinese": "中景",
+      "english": "Midground",
+      "elements": ["次要角色", "環境元素", "背景動作"],
+      "focus": "通常保持清晰",
+      "narrative_function": "擴展畫面層次，增加環境資訊"
+    },
+    "background": {
+      "chinese": "遠景/背景",
+      "english": "Background",
+      "elements": ["遠景景物", "環境光線", "氛圍元素"],
+      "focus": "景深決定清晰度",
+      "narrative_function": "建立場景氛圍，提供環境資訊"
+    }
+  },
+  "visual_impact_techniques": {
+    "contrast": {
+      "chinese": "對比",
+      "english": "Contrast",
+      "types": ["光暗對比", "色彩對比", "大小對比", "動靜對比"],
+      "example": "強烈光暗對比：男角色1半身沐浴在爆炸光芒中，另一半臉被陰影籠罩，眼神決絕"
+    },
+    "dynamic_composition": {
+      "chinese": "動態構圖",
+      "english": "Dynamic Composition",
+      "techniques": ["對角線構圖", "透視深度", "運動方向", "視線引導"],
+      "example": "對角線構圖：男角色1從右下角向左上角奔跑，形成動態張力"
+    },
+    "tension_building": {
+      "chinese": "張力構建",
+      "english": "Tension Building",
+      "techniques": ["緊湊剪裁", "不對稱構圖", "衝突元素", "懸疑留白"],
+      "example": "不對稱構圖：畫面左側空曠，右側男角色1緊壓牆面，創造視覺壓迫"
+    }
+  },
+  "facial_expression_terminology": {
+    "eye_expressions": {
+      "gaze": "凝視 - 專注看著某物",
+      "averted_gaze": "迴避視線 - 刻意不看",
+      "intense_stare": "銳利眼神 - 強烈專注",
+      "fearful_eye": "恐懼眼神 - 瞳孔放大",
+      "shifty_eye": "游移眼神 - 不安或不誠實"
+    },
+    "brow_expressions": {
+      "furrowed_brow": "皺眉 - 擔憂、困惑、憤怒",
+      "raised_brow": "揚眉 - 驚訝、疑問",
+      "tense_brow": "緊繃眉頭 - 壓力、專注"
+    },
+    "mouth_expressions": {
+      "slightly_open": "微張 - 驚訝、喘息",
+      "tightly_closed": "緊閉 - 決心、憤怒",
+      "trembling": "顫抖 - 恐懼、悲傷"
+    },
+    "mixed_emotions": {
+      "complex_expression": "複合表情 - 混合兩種以上情緒",
+      "micro_expression": "微表情 - 短暫閃過的真實情緒",
+      "example": "男角色1表情複雜：左眼微瞇，右眼圓睜；嘴角一邊上揚一邊顫抖；混合著憤怒和悲傷"
+    }
+  },
+  "prompt_examples": {
+    "good_example_1": {
+      "scenario": "5 個角色群體場景",
+      "prompt": "【前景】男角色1（@image1），著黑色皮夾克，手持雙槍，站立於建築頂端邊緣，風吹動髮絲，表情冷峻，眼神掃視下方戰場，採用低角度仰拍\n【中景】女角色2（@image2），著軍用戰術背心，手持狙擊步槍，蹲伏於掩體後，透過瞄準鏡觀察，表情專注\n          怪物角色3（@image3），身高四米，全身覆蓋尖刺裝甲，從建築陰影中現身，低角度仰拍，利爪抓碎混凝土\n【遠景】外星人角色4（@image4），懸浮於空中，身體發出藍光，雙手凝聚能量球，背光產生輪廓光\n          機械人角色5（@image5），金屬外殼，右臂變形為加農炮，站立於廢墟之中，紅色電子眼閃爍\n【場面調度】採用深焦攝影，讓前景至遠景的角色皆清晰可見，增加畫面層次感"
+    },
+    "good_example_2": {
+      "scenario": "單人場景 + 多層次視覺",
+      "prompt": "【前景】女角色1（@image1），著白色禮服，長髮飄散，懸立於懸崖邊緣，雙手伸出，掌心向上，表情悲傷但堅定，淺景深柔化背景\n【中景】懸崖上的花朵隨風搖曳，遠處有鳥群飛過\n【遠景】夕陽西下，金色光線穿透雲層，渲染整個天空\n【場面調度】採用推軌進入，從遠景逐漸推至女性面部特寫，焦點從自然景觀轉至角色情緒，配合背光產生輪廓光"
+    }
+  },
+  "reference_syntax": {
+    "image": "@image{N}",
+    "video": "@video{N}",
+    "audio": "@audio{N}",
+    "character_format": "{性別/類型}角色{N}（@image{N}）",
+    "scene_format": "{場景名稱}場景{N}（@image{N}）",
+    "note": "Use lowercase: @image1, not @Image1"
+  }
+}

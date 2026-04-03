@@ -1,0 +1,218 @@
+{
+  "version": "1.0.0",
+  "description": "電影攝影術語資料庫 - 專業設備與燈光",
+  "cameras": [
+    {
+      "id": "arri_alexa_65",
+      "name_chinese": "Arri Alexa 65",
+      "name_english": "Arri Alexa 65",
+      "use_case_chinese": "IMAX、頂級電影製作",
+      "use_case_english": "IMAX, premium cinema"
+    },
+    {
+      "id": "red_monstro",
+      "name_chinese": "RED Monstro",
+      "name_english": "RED Monstro",
+      "use_case_chinese": "8K錄製、高動態範圍",
+      "use_case_english": "8K recording, high dynamic range"
+    },
+    {
+      "id": "sony_venice",
+      "name_chinese": "Sony Venice",
+      "name_english": "Sony Venice",
+      "use_case_chinese": "變形鏡頭、電影感",
+      "use_case_english": "Anamorphic lenses, cinematic look"
+    },
+    {
+      "id": "blackmagic_ursa",
+      "name_chinese": "Blackmagic URSA",
+      "name_english": "Blackmagic URSA Mini Pro",
+      "use_case_chinese": "獨立製片、高CP值",
+      "use_case_english": "Independent filmmaking, high value"
+    }
+  ],
+  "lenses": [
+    {
+      "id": "panavision_c_series",
+      "name_chinese": "Panavision C Series 變形鏡頭",
+      "name_english": "Panavision C Series Anamorphic",
+      "characteristics": ["水平耀斑", "橢圓散景", "焦點柔化"],
+      "best_for": "電影感、大片風格"
+    },
+    {
+      "id": "cooke_s4",
+      "name_chinese": "Cooke S4/i",
+      "name_english": "Cooke S4/i",
+      "characteristics": ["柔和自然", "電影感", "皮膚色調優美"],
+      "best_for": "人像、情感戲"
+    },
+    {
+      "id": "canon_cn_e",
+      "name_chinese": "Canon CN-E 變焦鏡頭",
+      "name_english": "Canon CN-E Cinema Zoom",
+      "characteristics": ["多功能", "變焦靈活", "生產效率"],
+      "best_for": "紀錄片、活動拍攝"
+    },
+    {
+      "id": "zeiss_master_prime",
+      "name_chinese": "Zeiss Master Prime",
+      "name_english": "Zeiss Master Prime",
+      "characteristics": ["銳利", "低畸變", "高科技感"],
+      "best_for": "科幻、產品拍攝"
+    }
+  ],
+  "camera_movements": [
+    {
+      "id": "static",
+      "name_chinese": "靜止",
+      "name_english": "Static",
+      "description": "鏡頭不動，讓動作在畫面內發生"
+    },
+    {
+      "id": "push_in",
+      "name_chinese": "推進",
+      "name_english": "Push In / Dolly In",
+      "description": "鏡頭向前推進，拉近觀眾與角色距離"
+    },
+    {
+      "id": "pull_out",
+      "name_chinese": "拉出",
+      "name_english": "Pull Out / Dolly Out",
+      "description": "鏡頭向後拉出，揭示環境"
+    },
+    {
+      "id": "pan",
+      "name_chinese": "搖攝",
+      "name_english": "Pan",
+      "description": "鏡頭水平轉動，跟隨動作"
+    },
+    {
+      "id": "tilt",
+      "name_chinese": "傾斜",
+      "name_english": "Tilt",
+      "description": "鏡頭垂直轉動，上下移動"
+    },
+    {
+      "id": "tracking",
+      "name_chinese": "跟拍",
+      "name_english": "Tracking Shot",
+      "description": "鏡頭跟隨移動的主體"
+    },
+    {
+      "id": "crane",
+      "name_chinese": "搖臂",
+      "name_english": "Crane / Jib",
+      "description": "大型垂直運動，電影感"
+    },
+    {
+      "id": "drone",
+      "name_chinese": "無人機",
+      "name_english": "Drone / Aerial",
+      "description": "空中視角，大場景"
+    },
+    {
+      "id": "steadicam",
+      "name_chinese": "穩定器",
+      "name_english": "Steadicam",
+      "description": "流暢的手持移動，跟隨角色"
+    },
+    {
+      "id": "handheld",
+      "name_chinese": "手持",
+      "name_english": "Handheld",
+      "description": "不穩定的鏡頭，緊張感、紀錄片感"
+    }
+  ],
+  "lighting_setups": [
+    {
+      "id": "three_point",
+      "name_chinese": "三點打光",
+      "name_english": "Three-Point Lighting",
+      "components": ["關鍵光", "補光", "背光/輪廓光"],
+      "use_case_chinese": "訪談、人像、經典場景",
+      "use_case_english": "Interviews, portraiture, classic scenes"
+    },
+    {
+      "id": "naturalistic",
+      "name_chinese": "自然光",
+      "name_english": "Naturalistic Lighting",
+      "components": ["柔和擴散關鍵光", "負向補光", "實用光源"],
+      "use_case_chinese": "寫實戲劇、紀錄片",
+      "use_case_english": "Realistic drama, documentary"
+    },
+    {
+      "id": "high_contrast",
+      "name_chinese": "高對比電影光",
+      "name_english": "High-Contrast Cinematic",
+      "components": ["硬關鍵光", "深陰影", "強輪廓光"],
+      "use_case_chinese": "黑色電影、驚悚片",
+      "use_case_english": "Noir, thriller, drama"
+    },
+    {
+      "id": "soft_diffused",
+      "name_chinese": "柔和擴散",
+      "name_english": "Soft Diffused Lighting",
+      "components": ["大型柔光", "低對比", "均勻照明"],
+      "use_case_chinese": "浪漫、喜劇、商業",
+      "use_case_english": "Romance, comedy, commercial"
+    },
+    {
+      "id": "silhouette",
+      "name_chinese": "剪影",
+      "name_english": "Silhouette Lighting",
+      "components": ["背光", "主體暗", "輪廓清晰"],
+      "use_case_chinese": "懸疑、藝術、戲劇性",
+      "use_case_english": "Suspense, artistic, dramatic"
+    }
+  ],
+  "color_grades": [
+    {
+      "id": "teal_orange",
+      "name_chinese": "藍綠與橘",
+      "name_english": "Teal & Orange",
+      "mood_chinese": "大片、動作片",
+      "mood_english": "Blockbuster, action",
+      "description": "好萊塢標準調色，陰影偏藍綠，高光偏橘"
+    },
+    {
+      "id": "desaturated",
+      "name_chinese": "低飽和低對比",
+      "name_english": "Desaturated Low Contrast",
+      "mood_chinese": "劇情片、憂鬱氛圍",
+      "mood_english": "Drama, melancholy",
+      "description": "柔和對比、淡雅色彩、電影感"
+    },
+    {
+      "id": "warm_vintage",
+      "name_chinese": "暖色復古",
+      "name_english": "Warm Vintage",
+      "mood_chinese": "懷舊、浪漫、回憶",
+      "mood_english": "Nostalgia, romance",
+      "description": "暖色調、柔和陰影、復古顆粒"
+    },
+    {
+      "id": "cold_sterile",
+      "name_chinese": "冷色無菌",
+      "name_english": "Cold Sterile",
+      "mood_chinese": "科幻、臨床、疏離",
+      "mood_english": "Sci-fi, clinical",
+      "description": "冷藍調、高對比、乾淨"
+    },
+    {
+      "id": "natural",
+      "name_chinese": "自然",
+      "name_english": "Natural",
+      "mood_chinese": "紀錄片、寫實",
+      "mood_english": "Documentary, realistic",
+      "description": "平衡色彩、接近人眼所見"
+    },
+    {
+      "id": "high_contrast_bw",
+      "name_chinese": "高對比黑白",
+      "name_english": "High Contrast B&W",
+      "mood_chinese": "藝術、戲劇",
+      "mood_english": "Artistic, dramatic",
+      "description": "去除色彩、純粹光影對比"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "version": "1.0.0",
+  "platform": "Seedance 2.0",
+  "official_docs": "https://seedance2.ai/zh-hant",
+  "material_limits": {
+    "images": {
+      "max_count": 9,
+      "tag_format": "@image1-@image9",
+      "note": "Lowercase @image1, not @Image1"
+    },
+    "videos": {
+      "max_count": 3,
+      "max_total_duration_seconds": 15,
+      "tag_format": "@video1-@video3",
+      "note": "Total duration of all videos must not exceed 15 seconds"
+    },
+    "audio": {
+      "max_count": 3,
+      "max_total_duration_seconds": 15,
+      "format": "MP3",
+      "tag_format": "@audio1-@audio3",
+      "note": "Total duration of all audio files must not exceed 15 seconds"
+    },
+    "total_materials": {
+      "max_count": 12,
+      "note": "Sum of images + videos + audio must not exceed 12"
+    }
+  },
+  "supported_combinations": [
+    {
+      "id": 1,
+      "name_chinese": "文字 + 圖片",
+      "name_english": "Text + Images",
+      "use_case": "純視覺參考，適合角色/場景設計"
+    },
+    {
+      "id": 2,
+      "name_chinese": "文字 + 影片",
+      "name_english": "Text + Videos",
+      "use_case": "運鏡參考，適合動態效果"
+    },
+    {
+      "id": 3,
+      "name_chinese": "文字 + 圖片 + 音訊",
+      "name_english": "Text + Images + Audio",
+      "use_case": "視覺 + 音訊風格，適合氛圍營造"
+    },
+    {
+      "id": 4,
+      "name_chinese": "文字 + 影片 + 音訊",
+      "name_english": "Text + Videos + Audio",
+      "use_case": "完整動態參考，適合複雜場景"
+    },
+    {
+      "id": 5,
+      "name_chinese": "文字 + 圖片 + 影片 + 音訊",
+      "name_english": "Text + Images + Videos + Audio",
+      "use_case": "全模態輸入，最完整控制"
+    }
+  ],
+  "generation_settings": {
+    "duration": {
+      "min_seconds": 4,
+      "max_seconds": 15,
+      "note": "Range: 4-15 seconds (any integer within range)",
+      "smart_defaults": [
+        {
+          "value": 4,
+          "label_chinese": "短 (4秒)",
+          "label_english": "Short (4s)",
+          "shots": 1,
+          "description_chinese": "單一鏡頭，瞬間衝擊",
+          "description_english": "Single shot, instant impact"
+        },
+        {
+          "value": 8,
+          "label_chinese": "中等 (8秒)",
+          "label_english": "Medium (8s)",
+          "shots": "2-3",
+          "description_chinese": "簡單敘事，角色互動",
+          "description_english": "Simple narrative, character interaction"
+        },
+        {
+          "value": 12,
+          "label_chinese": "標準 (12秒)",
+          "label_english": "Standard (12s)",
+          "shots": "3-4",
+          "description_chinese": "完整故事弧",
+          "description_english": "Complete story arc"
+        },
+        {
+          "value": 15,
+          "label_chinese": "長 (15秒)",
+          "label_english": "Long (15s)",
+          "shots": "4-5",
+          "description_chinese": "電影級敘事",
+          "description_english": "Cinematic storytelling"
+        }
+      ]
+    },
+    "aspect_ratio": {
+      "options": [
+        {
+          "value": "auto",
+          "label_chinese": "自動",
+          "label_english": "Auto",
+          "description": "由AI自動選擇最佳比例"
+        },
+        {
+          "value": "16:9",
+          "label_chinese": "16:9",
+          "label_english": "16:9 (Standard Widescreen)",
+          "description": "標準橫式，適合影片、電腦螢幕"
+        },
+        {
+          "value": "9:16",
+          "label_chinese": "9:16",
+          "label_english": "9:16 (Vertical)",
+          "description": "直式，適合手機、社群媒體（Reels, TikTok）"
+        },
+        {
+          "value": "4:3",
+          "label_chinese": "4:3",
+          "label_english": "4:3 (Traditional)",
+          "description": "傳統比例，經典電影感"
+        },
+        {
+          "value": "3:4",
+          "label_chinese": "3:4",
+          "label_english": "3:4 (Vertical Traditional)",
+          "description": "直式傳統比例"
+        },
+        {
+          "value": "21:9",
+          "label_chinese": "21:9",
+          "label_english": "21:9 (Ultra-wide)",
+          "description": "超寬比例，電影感"
+        },
+        {
+          "value": "1:1",
+          "label_chinese": "1:1",
+          "label_english": "1:1 (Square)",
+          "description": "正方形，適合社群媒體貼文"
+        }
+      ]
+    },
+    "resolution": {
+      "options": [
+        {
+          "value": "480p",
+          "label_chinese": "480p",
+          "label_english": "480p (Fast)",
+          "description": "快速生成，適合預覽"
+        },
+        {
+          "value": "720p",
+          "label_chinese": "720p",
+          "label_english": "720p (Standard)",
+          "description": "標準品質，適合一般用途"
+        },
+        {
+          "value": "1080p",
+          "label_chinese": "1080p",
+          "label_english": "1080p (Highest)",
+          "description": "最高品質，適合專業製作"
+        }
+      ]
+    }
+  },
+  "validation_errors": {
+    "video_count_exceeded": "⛔錯誤：影片數量超過限制（最多 3 部）",
+    "video_duration_exceeded": "⛔ 錯誤：影片總時長超過限制（最多 15秒，目前：{duration}秒）",
+    "audio_duration_exceeded": "⛔ 錯誤：音訊總時長超過限制（最多 15秒，目前：{duration}秒）",
+    "total_count_exceeded": "⛔ 錯誤：素材總數超過限制（最多 12個）",
+    "invalid_duration": "⛔ 錯誤：秒數必須在 4-15 秒之間",
+    "invalid_aspect_ratio": "⛔ 錯誤：無效的長寬比",
+    "invalid_resolution": "⛔ 錯誤：無效的解析度"
+  }
+}

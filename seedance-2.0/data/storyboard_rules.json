@@ -1,0 +1,312 @@
+{
+  "version": "1.0.0",
+  "description": "商業電影得獎大片分鏡節奏與規則",
+  "source": "好萊塢得獎電影分析 + 電影製作規範",
+  "storyboard_rhythm": {
+    "tension_curve": {
+      "description": "張力曲線 - 奧斯卡得獎電影標準節奏",
+      "4_seconds": {
+        "tension_values": [3, 8, 3],
+        "description": "建立(3) → 高潮(8) → 餘韻(3)",
+        "pacing": "瞬間衝擊，快速建立與釋放",
+        "cutting_rhythm": "1 cut per second average",
+        "example": "《1917》連續鏡頭,《鳥人》單鏡瞬間"
+      },
+      "8_seconds": {
+        "tension_values": [2, 5, 8, 4],
+        "description": "建立(2) → 發展(5) → 高潮(8) → 釋放(4)",
+        "pacing": "快速建立，中段推進，高峰收尾",
+        "cutting_rhythm": "1.5-2 cuts per second for action, 0.5 cuts for drama",
+        "example": "《敦促逃生》追逐場景,《神鬼戰士》戰鬥序列"
+      },
+      "12_seconds": {
+        "tension_values": [1, 3, 6, 9, 5],
+        "description": "建立(1) → 鋪墊(3) → 發展(6) → 高潮(9) → 釋放(5)",
+        "pacing": "完整三幕結構：鋪陳→衝突→解決",
+        "cutting_rhythm": "Variable: slow(0.3) → fast(1.5) → medium(0.7)",
+        "example": "《全面啟動》夢境層次,《星際效應》情感場景"
+      },
+      "15_seconds": {
+        "tension_values": [1, 3, 5, 8, 10, 6],
+        "description": "建立(1) → 鋪墊(3) → 發展(5) → 強化(8) → 高潮(10) → 釋放(6)",
+        "pacing": "電影節標準節奏，完整五幕結構",
+        "cutting_rhythm": "Complex rhythm with emotional arcs",
+        "example": "《鐵達尼號》關鍵場景,《阿凡達》動作序列"
+      }
+    }
+  },
+  "award_winning_rules": {
+    "oscar_best_picture": {
+      "description": "奧斯卡最佳影片分鏡規則",
+      "rules": [
+        {
+          "id": "emotional_arcs",
+          "name_chinese": "情感弧線",
+          "name_english": "Emotional Arcs",
+          "rule": "每個鏡頭必須推進情感弧線",
+          "application": "鏡頭非裝飾，每個畫面都有敘事功能"
+        },
+        {
+          "id": "visual_subtext",
+          "name_chinese": "視覺潛台詞",
+          "name_english": "Visual Subtext",
+          "rule": "畫面必須傳達潛台詞，而非僅呈現表面",
+          "application": "Show, don't tell - 用畫面說故事"
+        },
+        {
+          "id": "motivated_camera",
+          "name_chinese": "動機鏡頭",
+          "name_english": "Motivated Camera Movement",
+          "rule": "所有運鏡皆有動機，非隨意移動",
+          "application": "鏡頭跟隨角色、揭示資訊、建立張力"
+        },
+        {
+          "id": "continuity_precision",
+          "name_chinese": "連戲精準",
+          "name_english": "Continuity Precision",
+          "rule": "所有動作、道具、光線必須連戲",
+          "application": "跨鏡頭的一致性維持"
+        },
+        {
+          "id": "sound_design_integration",
+          "name_chinese": "聲音設計整合",
+          "name_english": "Sound Design Integration",
+          "rule": "聲音與畫面同等重要，非後製附加",
+          "application": "Dolby Atmos 全方位聲音設計"
+        }
+      ]
+    },
+    "cannes_directors_prize": {
+      "description": "坎城導演獎分鏡規則",
+      "rules": [
+        {
+          "id": "author_vision",
+          "name_chinese": "作者視野",
+          "name_english": "Author Vision",
+          "rule": "每一個鏡頭反映導演獨特視野",
+          "application": "避免模板化，追求個人風格"
+        },
+        {
+          "id": "complex_mise_en_scene",
+          "name_chinese": "複雜場面調度",
+          "name_english": "Complex Mise-en-Scene",
+          "rule": "單一鏡頭內多層次敘事",
+          "application": "前景、中景、背景同時說故事"
+        },
+        {
+          "id": "rhythm_variations",
+          "name_chinese": "節奏變化",
+          "name_english": "Rhythm Variations",
+          "rule": "避免單一節奏，創造動態變化",
+          "application": "快慢交替，張弛有度"
+        }
+      ]
+    }
+  },
+  "commercial_blockbuster_rules": {
+    "description": "商業大片分鏡規則",
+    "rules": [
+      {
+        "id": "opening_hook",
+        "name_chinese": "開場鉤子",
+        "name_english": "Opening Hook",
+        "rule": "前5秒必須抓住觀眾注意力",
+        "time_requirement": "0-5 seconds",
+        "techniques": ["視覺衝擊", "懸念建立", "角色魅力展示"],
+        "example": "《復仇者聯盟》開場，《玩命關頭》起跑"
+      },
+      {
+        "id": "rising_action",
+        "name_chinese": "上升行動",
+        "name_english": "Rising Action",
+        "rule": "張力持續上升，直到高潮點",
+        "time_requirement": "5-10 seconds for 15s clip",
+        "techniques": ["剪輯加速", "音量提升", "鏡頭加大"],
+        "example": "《黑暗騎士》追逐場景"
+      },
+      {
+        "id": "climax_moment",
+        "name_chinese": "高潮時刻",
+        "name_english": "Climax Moment",
+        "rule": "最強烈的視覺與情感衝擊",
+        "time_requirement": "Peak at 70-80% of duration",
+        "techniques": ["最大張力", "關鍵揭露", "情感爆發"],
+        "example": "《星際大戰》爆炸，《蜘蛛人》救人"
+      },
+      {
+        "id": "resolution_beat",
+        "name_chinese": "解決節拍",
+        "name_english": "Resolution Beat",
+        "rule": "給觀眾情感釋放的空間",
+        "time_requirement": "Final 20%",
+        "techniques": ["音樂漸弱", "鏡頭拉遠", "角色反應"],
+        "example": "《鐵達尼號》結尾，《阿凡達》重逢"
+      }
+    ]
+  },
+  "pacing_guidelines": {
+    "cutting_rhythm": {
+      "action_sequence": {
+        "description": "動作場景剪輯節奏",
+        "cuts_per_second": "2-4 cuts",
+        "average_shot_length": "0.25-0.5 seconds",
+        "technique": "快速剪輯，動作連貫，衝擊力強",
+        "example": "《瘋狂麥斯：憤怒道》追逐，《玩命關頭》飛車"
+      },
+      "dialogue_scene": {
+        "description": "對話場景剪輯節奏",
+        "cuts_per_second": "0.3-0.7 cuts",
+        "average_shot_length": "1.5-3 seconds",
+        "technique": "反應鏡頭，情感流動，節奏自然",
+        "example": "《社群網戰》對話，《天才雷普利》談判"
+      },
+      "emotional_beat": {
+        "description": "情感節拍剪輯節奏",
+        "cuts_per_second": "0.2-0.5 cuts",
+        "average_shot_length": "2-5 seconds",
+        "technique": "長鏡頭，情感累積，角色特寫",
+        "example": "《樂來越愛你》情感，《星際效應》分離"
+      },
+      "establishment_shot": {
+        "description": "建立鏡頭剪輯節奏",
+        "cuts_per_second": "0.1-0.2 cuts",
+        "average_shot_length": "4-8 seconds",
+        "technique": "靜止或緩慢移動，環境揭示",
+        "example": "《銀翼殺手2049》城市，《全面啟動》夢境"
+      }
+    },
+    "visual_rhythm": {
+      "color_arc": {
+        "description": "色彩弧線 - 情感色彩變化",
+        "rule": "色彩隨情感變化，非隨意選擇",
+        "examples": [
+          "溫暖→冷色 = 快樂→悲傷",
+          "低飽和→高飽和 = 平淡→激情",
+          "藍綠→橘紅 = 危機→行動"
+        ]
+      },
+      "sound_rhythm": {
+        "description": "聲音節奏 - 音訊設計弧線",
+        "rule": "音量、頻率、空間隨張力變化",
+        "layers": {
+          "ambient": "環境音持續，建立基底",
+          "sfx": "特效音隨動作增強",
+          "dialogue": "對白清晰，情感節奏",
+          "music": "音樂隨張力起伏"
+        }
+      }
+    }
+  },
+  "shot_progression_rules": {
+    "description": "鏡頭推進規則 - 專業電影節奏",
+    "progression_patterns": [
+      {
+        "pattern": "wide_to_close",
+        "name_chinese": "遠景推進至特寫",
+        "name_english": "Wide to Close Progression",
+        "rule": "逐步拉近觀眾與角色的距離",
+        "example_sequence": ["ELS → LS → MS → MCU → CU"],
+        "emotional_effect": "建立環境 → 情感投入 → 極致情感",
+        "use_for": ["角色登場", "情感深化", "重要時刻"]
+      },
+      {
+        "pattern": "close_to_wide",
+        "name_chinese": "特寫拉遠至遠景",
+        "name_english": "Close to Wide Progression",
+        "rule": "從情感中抽離，揭示環境",
+        "example_sequence": ["CU → MCU → MS → LS → ELS"],
+        "emotional_effect": "極致情感 → 情感釋放 → 環境語境",
+        "use_for": ["結局揭示", "場景轉換", "情感釋放"]
+      },
+      {
+        "pattern": "parallel_intercut",
+        "name_chinese": "平行交叉剪輯",
+        "name_english": "Parallel Intercutting",
+        "rule": "兩條故事線同時進行，交叉剪輯",
+        "example_sequence": ["Story A → Story B → Story A → Story B"],
+        "emotional_effect": "張力加乘，時間對比",
+        "use_for": ["追逐場景", "限時任務", "多線敘事"]
+      },
+      {
+        "pattern": "rhythmic_montage",
+        "name_chinese": "節奏蒙太奇",
+        "name_english": "Rhythmic Montage",
+        "rule": "依據音樂節奏剪輯，視覺與聽覺同步",
+        "example_sequence": ["Beat 1 → Beat 2 → Beat 3 → Climax"],
+        "emotional_effect": "視覺衝擊，情感爆發",
+        "use_for": ["音樂影片", "訓練蒙太奇", "時間流逝"]
+      }
+    ]
+  },
+  "transitional_techniques": {
+    "description": "轉場技巧 - 專業電影轉場",
+    "techniques": [
+      {
+        "id": "match_cut",
+        "name_chinese": "匹配剪輯",
+        "name_english": "Match Cut",
+        "description": "相似形狀、動作、顏色的連續剪輯",
+        "example": "《2001太空漫遊》骨頭→太空船"
+      },
+      {
+        "id": "jump_cut",
+        "name_chinese": "跳剪",
+        "name_english": "Jump Cut",
+        "description": "同一鏡頭內的時間跳躍",
+        "example": "《呼吸》時間流逝"
+      },
+      {
+        "id": "cross_dissolve",
+        "name_chinese": "交叉淡化",
+        "name_english": "Cross Dissolve",
+        "description": "兩個畫面漸變交疊",
+        "example": "時間流逝，回憶轉換"
+      },
+      {
+        "id": "fade_to_black",
+        "name_chinese": "淡出至黑",
+        "name_english": "Fade to Black",
+        "description": "畫面逐漸變黑",
+        "example": "章節結束，重大轉折"
+      },
+      {
+        "id": "whip_pan",
+        "name_chinese": "快速搖攝",
+        "name_english": "Whip Pan",
+        "description": "快速水平轉動，模糊過渡",
+        "example": "《鳥人》無縫轉場"
+      },
+      {
+        "id": "l_cut_j_cut",
+        "name_chinese": "L剪/J剪",
+        "name_english": "L-Cut / J-Cut",
+        "description": "聲音先於或後於畫面轉換",
+        "example": "對話延續，場景轉換"
+      }
+    ]
+  },
+  "storyboard_checklist": {
+    "description": "專業分鏡檢查清單",
+    "pre_production": [
+      "每個鏡頭都有敘事功能嗎？",
+      "張力曲線是否合理？",
+      "剪輯節奏是否一致？",
+      "情感弧線是否完整？",
+      "視覺潛台詞是否清晰？"
+    ],
+    "shot_level": [
+      "鏡頭景別是否適當？",
+      "運鏡動機是否明確？",
+      "燈光設計是否支持情感？",
+      "音訊設計是否完整？",
+      "色彩設計是否符合情緒？"
+    ],
+    "continuity": [
+      "角色服裝是否連戲？",
+      "道具位置是否一致？",
+      "光線方向是否正確？",
+      "動作是否流暢連貫？",
+      "時間碼是否合理？"
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "version": "1.0.0",
+  "description": "主題資料庫 - 電影片段瞬間特化版（視覺衝擊點導向）",
+  "note": "主題是故事世界，呈現的是其中的震撼瞬間（5-20秒），不是完整故事",
+  "themes": [
+    {
+      "id": "stunt_impossible",
+      "name_zh": "特技演員不可能任務",
+      "name_en": "Stuntman Impossible Mission",
+      "story_world": "特技演員執行危險特技",
+      "impact_moment": "從高樓跳下、飛車穿越、大樓外牆滑落",
+      "character_focus": "特技演員",
+      "description": "特技演員在摩天大樓外牆滑落，或在兩棟大樓間跳躍的瞬間"
+    },
+    {
+      "id": "street_lovers_meet",
+      "name_zh": "情人街頭相遇",
+      "name_en": "Lovers Street Meeting",
+      "story_world": "愛情故事、街頭偶遇",
+      "impact_moment": "目光交會、慢動作走向、誇張擁抱",
+      "character_focus": "一對情侶",
+      "description": "情人在街頭相遇的瞬間，目光交會，背景虛化，慢動作擁抱"
+    },
+    {
+      "id": "baseball_home_run",
+      "name_zh": "棒球全壘打瞬間",
+      "name_en": "Baseball Home Run Moment",
+      "story_world": "棒球比賽、運動競技",
+      "impact_moment": "球棒擊中球、球飛出場外、觀眾歡呼",
+      "character_focus": "棒球選手",
+      "description": "棒球選手擊出全壘打的瞬間，球棒與球的接觸、球飛向觀眾席"
+    },
+    {
+      "id": "street_kung_fu",
+      "name_zh": "街頭功夫對戰",
+      "name_en": "Street Kung Fu Battle",
+      "story_world": "武術、街頭格鬥",
+      "impact_moment": "出拳、踢腿、閃避、倒地",
+      "character_focus": "兩名武者",
+      "description": "兩人在街頭功夫對戰，出拳瞬間、踢腿交鋒、一人倒地"
+    },
+    {
+      "id": "racing_finish_line",
+      "name_zh": "賽車衝線瞬間",
+      "name_en": "Racing Finish Line",
+      "story_world": "賽車比賽、速度競技",
+      "impact_moment": "車子衝過終點線、煙硝、歡呼",
+      "character_focus": "賽車手",
+      "description": "賽車手以極速衝過終點線的瞬間，煙硝四起"
+    },
+    {
+      "id": "dance_spotlight",
+      "name_zh": "舞者聚光燈下",
+      "name_en": "Dancer in Spotlight",
+      "story_world": "舞蹈表演、舞台藝術",
+      "impact_moment": "旋轉、跳躍、光芒四射的高潮",
+      "character_focus": "舞者",
+      "description": "舞者在舞台上旋轉跳躍，聚光燈追隨，光芒四射的瞬間"
+    },
+    {
+      "id": "city_explosion",
+      "name_zh": "城市核爆",
+      "name_en": "City Nuclear Explosion",
+      "story_world": "災難片、末日題材",
+      "impact_moment": "衝擊波吞噬城市、建築崩解",
+      "character_focus": "城市中的倖存者",
+      "description": "城市突然被核爆衝擊波吞噬，建築瞬間崩解"
+    },
+    {
+      "id": "superhero_transform",
+      "name_zh": "超人變身",
+      "name_en": "Superhero Transformation",
+      "story_world": "超級英雄、科幻",
+      "impact_moment": "普通人變身超人，能量爆發",
+      "character_focus": "正在變身的人",
+      "description": "普通人被能量包圍，瞬間變身超人，地面震裂"
+    },
+    {
+      "id": "tsunami_attack",
+      "name_zh": "海嘯吞沒",
+      "name_en": "Tsunami Swallow",
+      "story_world": "自然災難",
+      "impact_moment": "巨浪瞬間吞沒城市",
+      "character_focus": "海嘯來臨時的人們",
+      "description": "平靜城市被海嘯瞬間吞沒，建築被淹沒"
+    },
+    {
+      "id": "building_collapse",
+      "name_zh": "大樓崩塌",
+      "name_en": "Building Collapse",
+      "story_world": "災難片、城市毀滅",
+      "impact_moment": "摩天大樓從中間斷裂",
+      "character_focus": "崩塌現場的人們",
+      "description": "摩天大樓突然從中間斷裂，碎片如雨落下"
+    },
+    {
+      "id": "sword_duel",
+      "name_zh": "劍客對決",
+      "name_en": "Sword Duel",
+      "story_world": "武俠、劍術",
+      "impact_moment": "刀劍相交、閃避、致命一擊",
+      "character_focus": "兩名劍客",
+      "description": "兩名劍客刀劍相交的瞬間，火花四射，一人倒下"
+    },
+    {
+      "id": "kung_fu_master",
+      "name_zh": "功夫宗師出招",
+      "name_en": "Kung Fu Master Strike",
+      "story_world": "武術、功夫",
+      "impact_moment": "宗師出招、內力爆發、對手飛出",
+      "character_focus": "功夫宗師",
+      "description": "功夫宗師以一敵百，內力爆發，對手全部飛出的瞬間"
+    },
+    {
+      "id": "basketball_dunk",
+      "name_zh": "籃球灌籃",
+      "name_en": "Basketball Slam Dunk",
+      "story_world": "籃球比賽、運動",
+      "impact_moment": "球員跳起、灌籃、籃框震動",
+      "character_focus": "籃球選手",
+      "description": "籃球選手跳起灌籃，籃框震動，觀眾沸騰"
+    },
+    {
+      "id": "singer_stage",
+      "name_zh": "歌手舞台瞬間",
+      "name_en": "Singer Stage Moment",
+      "story_world": "音樂、演唱會",
+      "impact_moment": "高音飆出、燈光聚焦、觀眾瘋狂",
+      "character_focus": "歌手",
+      "description": "歌手在高音瞬間，燈光聚焦，全場觀眾瘋狂"
+    },
+    {
+      "id": "chef_cooking",
+      "name_zh": "廚師火焰烹飪",
+      "name_en": "Chef Fire Cooking",
+      "story_world": "廚藝、餐廳",
+      "impact_moment": "火焰從鍋中升起、食材飛舞",
+      "character_focus": "廚師",
+      "description": "廚師在鍋中引火焰，食材在火焰中翻飛的瞬間"
+    },
+    {
+      "id": "monster_city_battle",
+      "name_zh": "怪獸城市對戰",
+      "name_en": "Monster City Battle",
+      "story_world": "怪獸電影、城市災難",
+      "impact_moment": "怪獸對戰、撞擊大樓、建築倒塌",
+      "character_focus": "兩隻巨型怪獸",
+      "description": "兩隻大怪物在城市對戰，對打中撞擊大樓，建築崩塌"
+    },
+    {
+      "id": "comedy_lovers_fight",
+      "name_zh": "喜劇：街頭爭奪",
+      "name_en": "Comedy Street Tug of War",
+      "story_world": "喜劇、愛情",
+      "impact_moment": "兩個女人為男人拉扯、誇張表情、路人圍觀",
+      "character_focus": "兩個女人、一個男人",
+      "description": "兩個女人在街頭為一個男人拉扯，誇張表情、路人圍觀的喜劇瞬間"
+    },
+    {
+      "id": "tragedy_sacrifice",
+      "name_zh": "悲劇：捨身救人",
+      "name_en": "Tragedy Sacrifice",
+      "story_world": "悲劇、戰爭、災難",
+      "impact_moment": "為了救人挺身而出、被子彈射中、倒下",
+      "character_focus": "捨身救人的人",
+      "description": "有人為了救人，挺身而出，被子彈射中倒下的悲劇瞬間"
+    },
+    {
+      "id": "emotional_reunion",
+      "name_zh": "情感：久別重逢",
+      "name_en": "Emotional Reunion",
+      "story_world": "家庭、愛情、友情",
+      "impact_moment": "兩人相擁、淚流滿面、時間凝結",
+      "character_focus": "重逢的兩人",
+      "description": "久別重逢的瞬間，兩人相擁，淚流滿面，世界彷彿靜止"
+    },
+    {
+      "id": " comedy_slapstick",
+      "name_zh": "喜劇：滑稽跌倒",
+      "name_en": "Comedy Slapstick Fall",
+      "story_world": "喜劇、鬧劇",
+      "impact_moment": "踩香蕉皮滑倒、撞到門、誇張摔倒",
+      "character_focus": "滑稽的主角",
+      "description": "喜劇角色踩香蕉皮、撞到門、誇張摔倒的滑稽瞬間"
+    },
+    {
+      "id": "tragedy_goodbye",
+      "name_zh": "悲劇：生死離別",
+      "name_en": "Tragedy Final Goodbye",
+      "story_world": "悲劇、愛情、戰爭",
+      "impact_moment": "最後一次握手、淚別、眼神交會",
+      "character_focus": "即將分離的兩人",
+      "description": "生死離別的瞬間，最後一次握手，眼神交會，不捨放手"
+    },
+    {
+      "id": "suspense_reveal",
+      "name_zh": "懸疑：真相揭露",
+      "name_en": "Suspense Truth Reveal",
+      "story_world": "懸疑、推理",
+      "impact_moment": "真相揭曉、震驚表情、時間凝結",
+      "character_focus": "得知真相的人",
+      "description": "真相揭露的瞬間，主角震驚的表情，時間彷彿靜止"
+    },
+    {
+      "id": "scifi_space_evacuation",
+      "name_zh": "科幻：太空危機逃生",
+      "name_en": "Sci-Fi Space Crisis Evacuation",
+      "story_world": "科幻、太空、緊急逃生",
+      "impact_moment": "警報響起、人們奔跑、逃生艙發射、爆炸衝擊",
+      "character_focus": "太空站上的船員",
+      "description": "太空站發生危機，警報大作，船員們急著逃生的混亂瞬間"
+    },
+    {
+      "id": "scifi_ai_awakening",
+      "name_zh": "科幻：AI覺醒",
+      "name_en": "Sci-Fi AI Awakening",
+      "story_world": "科幻、人工智能",
+      "impact_moment": "機器人眼睛亮起、意識覺醒、表情轉變",
+      "character_focus": "覺醒的AI機器人",
+      "description": "AI機器人突然覺醒，眼睛亮起，表情從呆板轉為有靈魂的瞬間"
+    },
+    {
+      "id": "scifi_warp_drive",
+      "name_zh": "科幻：躍遷啟動",
+      "name_en": "Sci-Fi Warp Drive Activation",
+      "story_world": "科幻、太空旅行",
+      "impact_moment": "飛船引擎點燃、空間扭曲、星光拉伸",
+      "character_focus": "飛船駕駛員",
+      "description": "太空飛船啟動躍遷引擎，空間開始扭曲，星光拉伸成線的瞬間"
+    }
+  ]
+}
