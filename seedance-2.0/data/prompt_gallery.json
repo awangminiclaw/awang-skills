@@ -1,0 +1,82 @@
+{
+  "theme": "蒸汽龐克飛空艇空戰 (Steampunk Airship Battle)",
+  "version": "1.8.1",
+  "rendering_mode": "UE5 Metahuman Mode",
+  "prompts": [
+    {
+      "id": 1,
+      "title": "舷窗視角：雲端追逐",
+      "prompt": "[Subject: Cabin interior of a massive steampunk airship, brass window frames, raindrops on glass] [Action: Enemy airships chasing through sunset clouds, orange fire nets and projectiles outside] [Camera: Handheld shaking POV, looking out from cabin] [Style: UE5 render, MetaHuman, ray-tracing, Lumen lighting, cinematic steampunk] [Constraints: 8 seconds, 21:9, high quality, stable motion, raw color]"
+    },
+    {
+      "id": 2,
+      "title": "機動特寫：機關砲怒吼",
+      "prompt": "[Subject: Giant brass Gatling gun on airship deck, rotating mechanical gears] [Action: Rapid firing, green steam muzzle flash, burning brass shell casings falling to floor] [Camera: ECU, Low Angle Dolly-in to rotating barrel] [Style: UE5 render, MetaHuman, ray-tracing, Subsurface Scattering, Lumen lighting] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 3,
+      "title": "尾艙激戰：肉搏相殺",
+      "prompt": "[Subject: Two soldiers in leather uniforms and goggles fighting on airship tail deck] [Action: Exchanging steam-rifle fire, high-pressure steam bursts from broken valves, thick fog] [Camera: Orbit shot circling the duel] [Style: UE5 render, MetaHuman, ray-tracing, volumetric fog, cinematic steampunk] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 4,
+      "title": "全景：鋼鐵巨獸撞擊",
+      "prompt": "[Subject: Two colossal armored airships in mid-air collision] [Action: Metal hulls crushing and deforming, massive electric sparks and steam fire, debris flying] [Camera: Wide Tracking shot follow the collision] [Style: UE5 render, MetaHuman, ray-tracing, Lumen, destructive physics] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 5,
+      "title": "低空突襲：迷霧森林",
+      "prompt": "[Subject: Armored airship flying extremely low over a misty ancient forest] [Action: Propellers churning air, lifting dry leaves and dust, mist swirling below] [Camera: Low angle follow shot looking up at airship] [Style: UE5 render, MetaHuman, ray-tracing, dense volumetric mist, cinematic steampunk] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 6,
+      "title": "核心室：能源臨界",
+      "prompt": "[Subject: Core engine room of airship, giant pulsating reactor] [Action: Overheating steam pipes glowing red, pressure gauges jumping, alarm lights flashing] [Camera: Tracking shot moving through pipes to the reactor] [Style: UE5 render, MetaHuman, ray-tracing, emissive light, Lumen] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 7,
+      "title": "飛行員視角：雷擊風暴",
+      "prompt": "[Subject: Airship cockpit during a thunderstorm, lightning flashes outside] [Action: Pilot struggling with steering wheel, instruments sparking, magnetic gears spinning uncontrollably] [Camera: POV shot of pilot, lightning illuminates interior] [Style: UE5 render, MetaHuman, ray-tracing, stormy volumetric clouds] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 8,
+      "title": "艦橋特寫：臨危受命",
+      "prompt": "[Subject: Old airship captain with mechanical facial scars, brass steering wheel] [Action: Steering firmly, intense expression, spotlight from side highlights facial textures] [Camera: Close-up, side lighting setup] [Style: UE5 render, MetaHuman, ray-tracing, subsurface scattering skin texture] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 9,
+      "title": "俯瞰：城市防禦網",
+      "prompt": "[Subject: Victorian steampunk city seen from above, rain falling] [Action: Anti-air searchlights cutting through rain clouds, moving like swords, city lights below] [Camera: Top-down ELS, crane down] [Style: UE5 render, MetaHuman, ray-tracing, realistic rain textures, Lumen] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 10,
+      "title": "仰視：毀滅者降臨",
+      "prompt": "[Subject: Underneath a hostile super-dreadnought airship] [Action: Giant jet engines emitting green exhaust plumes, blotting out heaven, massive shadow] [Camera: Low angle looking up, ELS] [Style: UE5 render, MetaHuman, ray-tracing, mega-scale atmospheric effect] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 11,
+      "title": "微距：手搖引信",
+      "prompt": "[Subject: Leather-gloved hand rotating a brass timer fuse] [Action: Clockwork mechanism clicking, gears engaging, background filled with chaotic combat smoke] [Camera: Macro (ECU), rack focus to timer] [Style: UE5 render, MetaHuman, ray-tracing, detailed mechanical textures] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 12,
+      "title": "動態追蹤：自爆無人機",
+      "prompt": "[Subject: Swarm of small steam-powered drones with sharp gears] [Action: Flying towards airship engines like a cloud, screeching metallic sounds, buzzing] [Camera: Tracking shot following the drone swarm] [Style: UE5 render, MetaHuman, ray-tracing, Lumen lighting, swarm physics] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 13,
+      "title": "環繞：凱旋餘溫",
+      "prompt": "[Subject: Damaged airship sailing through floating ruins and clouds] [Action: Sunlight piercing through broken propeller blades, Tyndall effect, dust motes] [Camera: Slow orbit shot circling the wreckage] [Style: UE5 render, MetaHuman, ray-tracing, volumetric lighting, cinematic mood] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 14,
+      "title": "對焦轉移：死裡逃生",
+      "prompt": "[Subject: Damaged overheating engine in foreground, retreating enemy airship far away] [Action: Focus shifts from foreground smoke to the distant retreating ship, sense of isolation] [Camera: Rack focus from ECU to ELS] [Style: UE5 render, MetaHuman, ray-tracing, high dynamic range] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    },
+    {
+      "id": 15,
+      "title": "大遠景：終焉空戰",
+      "prompt": "[Subject: Horizon filled with hundreds of airships firing simultaneously] [Action: Dark purple sky filled with smoke and fire, massive fireballs swallowing airships, epic devastation] [Camera: Panoramic ELS, dolly out] [Style: UE5 render, MetaHuman, ray-tracing, massive volumetric fire, epic scale] [Constraints: 8 seconds, 21:9, high quality, stable motion]"
+    }
+  ]
+}
