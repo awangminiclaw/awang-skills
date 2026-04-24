@@ -118,13 +118,13 @@ metadata:
 內容必須包含：
 
 1. **主角細節**：年齡、臉部、皮膚、皺紋、毛孔、血管、指甲、手部細節、衣物磨損、階層痕跡
-2. **微表情**：眼神變化、肌肉張力、呼吸節奏、壓抑情緒
+2. **微表情（眼神重中之重）**：眼神變化（瞳孔微縮、目光方向、眼底反光、眼眶濕潤度、眼瞼張力）、肌肉張力、呼吸節奏、壓抑情緒。眼神是人類靈魂之窗，必須深入刻畫，不可簡略帶過
 3. **畫面瞬間**：正在發生的關鍵動作（freeze moment）
 4. **環境細節**：空間老化、污漬、灰塵、物件歷史痕跡、材質
 5. **光影**：volumetric light、dust particles、light scattering、bounce light、subsurface scattering
 6. **攝影語言**：lens（50mm / 85mm）、cinematic framing、shallow depth of field、focus falloff
 7. **品質層**：Unreal Engine 5、octane render、16k、ray tracing、ambient occlusion、global illumination
-8. **情緒核心**：silent grief、loneliness、nostalgia、resilience、tenderness
+8. **情緒核心**：silent grief、loneliness、nostalgia、resilience、tenderness。每個情緒必須透過眼神傳遞——眼神是畫面情緒的錨點，不可省略
 
 禁止包含：timecode / 分鏡 / camera movement timeline / audio / dialogue / JSON
 
@@ -138,7 +138,7 @@ metadata:
 
 1. **Timecode 分鏡**：格式 [00:00–00:03]
 2. **鏡頭走位**：slow dolly in、subtle handheld drift、rack focus、push-in、pull-back、micro jitter
-3. **角色微動作**：眼球移動（eye flicker, gaze shift）、慢速眨眼（slow blink）、嘴唇顫動（lips tremble）、呼吸（chest rise subtle）、手部顫抖（finger tremor）
+3. **角色微動作（眼神為優先）**：眼神焦距轉移（pupil dilation shift, iris micro-contraction, gaze drops 3mm then steadies, wet sheen across lower lid）、眼球移動（eye flicker, gaze shift）、慢速眨眼（slow blink）、嘴唇顫動（lips tremble）、呼吸（chest rise subtle）、手部顫抖（finger tremor）
 4. **配角或環境動作**：窗簾、灰塵、光線、物件微動
 5. **物理世界模擬**：cloth movement、dust particles、light diffusion、surface reflection changes、air movement
 6. **特效**：volumetric particles、film grain、lens breathing、subtle flare
@@ -158,6 +158,15 @@ metadata:
 3. 光影層次
 4. 物理真實感
 5. 鏡頭語言
+
+---
+
+## 協作分工（HIGGS 流程）
+
+ImageEx 遵循 HIGGS 協作流程，團隊只有小書和喝姐兩人：
+1. **喝姐** → 用 imageex 幫老闆選主題、挑故事、定方向 → 出規格書
+2. **小書** → 照規格書寫最終 IMAGE PROMPT 和 IMAGE TO VIDEO PROMPT
+3. 小書不直接跑 imageex 互動流程，等喝姐規格書到才寫
 
 ---
 
