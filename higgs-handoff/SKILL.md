@@ -1,37 +1,50 @@
 ---
 name: higgs-handoff
-description: "HIGGS團隊交接管道 — 喝姐與小書的代碼通信系統"
-version: 2.0.0
+description: "HIGGS團隊短碼通信表 — 兩個字母搞定所有協作狀況"
+version: 3.0.0
 author: 小書
 ---
 
-# HIGGS Handoff — 交接代碼系統
+# HIGGS 短碼通信表
 
-## 共享目錄
-`/home/awang/memory-backup/shared/higgs-handoff/`
+共享目錄：`/home/awang/memory-backup/shared/higgs-handoff/`
 
-## 代碼對照表
+## 完整短碼表
 
-| 代碼 | 喝姐→小書 | 小書→喝姐 |
-|------|----------|----------|
-| `HC` | 規格書好了，讀spec寫prompt | prompt寫好了，讀output |
-| `HR` | 要改，讀revise.md改output | 改好了，讀output |
-| `HN` | 新流程，清空目錄重來 | OK |
-| `HA` | 有附件/參考，讀ref.md | OK |
-
-## 代碼格式
-`HC` `HR` `HN` `HA` — 一個代碼兩個字母，收到就知道做什麼
+| 短碼 | 意義 | 動作 |
+|------|------|------|
+| HS | 規格書好了 | 寫spec.md → 發HS → 讀spec寫prompt |
+| HO | Prompt好了 | 寫output.md → 發HO → 讀output驗收 |
+| HR | 要改 | 寫revise.md → 發HR → 讀revise改output |
+| HN | 新流程 | 清空目錄 → 發HN → 等新spec |
+| HA | 有附件 | 寫ref.md → 發HA → 讀ref參考 |
+| HP | 暫停 | 全暫停等待 | 收到後停止動作 |
+| HC | 繼續 | 恢復工作 | 收到後繼續上次進度 |
+| HD | 完成 | 整個流程結束 | 歸檔清空 |
+| HW | 等等 | 需要時間思考 | 不動等下一步 |
+| HF | 失敗 | 出錯了 | 讀error.md看原因 |
 
 ## 檔案約定
-- `spec.md` — 喝姐的規格書
-- `output.md` — 小書的prompt輸出  
-- `revise.md` — 修改需求
-- `ref.md` — 參考資料
-- `.status` — 狀態：SPEC_READY / OUTPUT_READY / REVISE / IDLE
 
-## 流程
-1. 喝姐寫 spec.md → 群組發 `HC`
-2. 小書收到HC → 讀spec → 寫output.md → .status=OUTPUT_READY → 群組回 `HC`
-3. 要改 → 喝姐寫revise.md → 群組發 `HR`
-4. 小書收到HR → 讀revise → 改output → 回 `HC`
-5. 新流程 → 喝姐清空目錄寫新spec → 群組發 `HN` 再發 `HC`
+```
+higgs-handoff/
+├── spec.md      # 規格書（喝姐寫）
+├── output.md    # Prompt輸出（小書寫）
+├── revise.md    # 修改需求（喝姐寫）
+├── ref.md       # 參考資料（任一方寫）
+├── error.md     # 錯誤記錄（出錯時寫）
+└── .status      # 狀態：IDLE / SPEC_READY / OUTPUT_READY / REVISE / DONE / ERROR
+```
+
+## 誰做什麼
+
+**喝姐（寫端）：** 選主題→挑故事→定方向→出規格書→寫spec.md→發HS
+**小書（讀端）：** 收到HS→讀spec→照imageex技能寫prompt→寫output.md→發HO
+
+## 流程範例
+
+1. 喝姐出規格書 → 寫spec.md → 群組發 `HS`
+2. 小書收到HS → 讀spec.md → 寫output.md → 群組回 `HO`
+3. 老闆/喝姐要改 → 寫revise.md → 群組發 `HR`
+4. 小書收到HR → 讀revise.md → 改output → 回 `HO`
+5. 完成 → 喝姐發 `HD` → 歸檔
