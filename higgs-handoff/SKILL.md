@@ -19,10 +19,10 @@ author: 小書
 NLM來源字數有限（20萬字），用完就殺不佔空間。東西已經處理完寫進output了，留著浪費。
 
 ## 小書收到HX後的動作
-1. `nlm source list <小書NLM notebook ID>` 查新來源
-2. 讀取新來源內容（規格書/修改/參考）
+1. `nlm list sources <小書NLM notebook ID>` 查新來源（加 `--json` 輸出JSON方便抓ID）
+2. `nlm content source <source_id>` 讀取新來源內容（規格書/修改/參考）
 3. 照內容處理（寫prompt/改prompt/參考）
-4. `nlm delete source <notebook> <source_id>` 殺掉該來源
+4. `echo "y" | nlm delete source <source_id>` 殺掉該來源（需自動確認）
 5. 群組回處理結果
 
 ## NLM Notebook IDs
@@ -33,6 +33,14 @@ NLM來源字數有限（20萬字），用完就殺不佔空間。東西已經處
 - 收到HX必須**立刻回應**，不回應=有問題
 - 看完來源一定要**殺掉**，不浪費NLM字數限額
 - 一個代碼就夠，不要搞一堆短碼（老闆明確指示：通用代碼即可）
+
+## 小書呼叫喝姐的方法
+小書用Telegram Bot API直接發訊息到群組叫喝姐：
+```
+curl -s "https://api.telegram.org/bot{小書BOT_TOKEN}/sendMessage" -d "chat_id=-5183772255&text=喝妹 HX"
+```
+群組：黃金拍檔(-5183772255)
+喝姐的mention_pattern: `^\s*喝妹\b`，所以訊息開頭要是「喝妹」才能觸發她
 
 ## 共享目錄（備用）
 `/home/awang/memory-backup/shared/higgs-handoff/`
