@@ -21,6 +21,38 @@ trigger: 需要指揮小書執行任務時，或提到代碼協議/GO protocol
 Telegram bot看不到其他bot發的訊息（privacy mode），GO代碼走Telegram行不通。
 正確做法是透過小書的API server直連觸發，成品再用小書bot token貼群組。
 
+---
+
+## 分工接力協議（Blackboard Pattern）
+
+核心概念：NLM是共用黑板，每個人做完自己的部分，半成品存回NLM給下一位，成品往群組丟。
+
+### 流程
+```
+喝妹出規格書 → 存NLM（🔄 待處理）→ 訊號給小書
+小書讀NLM → 產出提示詞 → 是成品？→ 往群組丟
+                                    ↓ 是半成品？
+                               存NLM（🔄 待處理）→ 訊號給下一位
+```
+
+### 三個動作循環
+1. **收到訊號** → 去NLM看分工和資料
+2. **做事**
+   - 做完是**成品** → 往群組丟，刪NLM來源
+   - 做完是**半成品** → 存回NLM（🔄 待處理）→ 發訊號給下一階的人
+3. **下一階的人** 重複步驟1
+
+### 訊號方式
+- 喝妹→小書：`ping-xiaoshu GO`（API server直連）
+- 未來加人：每個agent有自己的API server，互相觸發
+- 所有訊號統一用GO，NLM標題用「🔄 待處理」
+
+### 優點
+- 不用老闆介入
+- 不用知道其他agent的細節，只要知道去NLM拿資料
+- 半成品不會丟失，都在NLM
+- 成品統一往群組丟，所有人都看得到
+
 ## 存任務到NLM
 ```bash
 source /home/awang/.hermes/profiles/xiaoshu/.env
